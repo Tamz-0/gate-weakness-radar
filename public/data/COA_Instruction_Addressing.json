@@ -1,0 +1,637 @@
+{
+  "topic": "COA_Instruction_Addressing",
+  "slug": "gatecoainstruction-adressing-mode-pyq2010-to-2025",
+  "total_questions": 18,
+  "questions": [
+    {
+      "qno": 1,
+      "id": 151163,
+      "title": "COA || 2011 MCQ || 2-mark || Module 2: Instruction format & Addressing Mode2011 MCQ Instruction Set Architecture",
+      "slug": "2011-mcq-instruction-set-architecture",
+      "question": "Consider evaluating the following expression tree on a machine with load-store architecture in which memory can be accessed only through load and store instructions. The variables a, b, c, d and e are initially stored in memory. The binary operators used in this expression tree can be evaluated by the machine only when the operands are in registers. The instructions produce result only in a register. If no intermediate results can be stored in memory, what is the minimum number of registers needed to evaluate this expression?\n[GATE 2011 || MCQ || 2-mark]",
+      "question_html": "<p dir=\"ltr\"><span>Consider evaluating the following expression tree on a machine with load-store architecture in which memory can be accessed only through load and store instructions. The variables a, b, c, d and e are initially stored in memory. The binary operators used in this expression tree can be evaluated by the machine only when the operands are in registers. The instructions produce result only in a register. If no intermediate results can be stored in memory, what is the minimum number of registers needed to evaluate this expression? </span></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20250502174750208338/Screenshot-2025-05-02-174727.png\" alt=\"Screenshot-2025-05-02-174727\" width=\"835\" height=\"324\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20250502174750208338/Screenshot-2025-05-02-174727.png 835w,https://media.geeksforgeeks.org/wp-content/uploads/20250502174750208338/Screenshot-2025-05-02-174727-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20250502174750208338/Screenshot-2025-05-02-174727-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20250502174750208338/Screenshot-2025-05-02-174727-300.png 300w,https://media.geeksforgeeks.org/wp-content/uploads/20250502174750208338/Screenshot-2025-05-02-174727-660.png 660w,https://media.geeksforgeeks.org/wp-content/uploads/20250502174750208338/Screenshot-2025-05-02-174727-768.png 768w\" loading=\"auto\"><figcaption> </figcaption></figure><p dir=\"ltr\"><b><strong>[GATE 2011 || MCQ || 2-mark]</strong></b></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "2",
+          "html": "<p><span>2</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "9",
+          "html": "<p><span>9</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "5",
+          "html": "<p><span>5</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 4,
+          "text": "3",
+          "html": "<p><span>3</span></p>",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        4
+      ],
+      "explanation": "LOAD R1 c;\nLOAD R2 d;\nADD R1 R1 R2; R1 ← R1 + R2 ⇒ R1 = c + d\nLOAD R2 e;\nSUB R2, R2, R1; R2 ← R2 – R1⇒ R2 = e – (c + d)\nLOAD R1 a;\nLOAD R3 b; SUB R1, R1, R3; R1 ← R1 – R3 ; R1 = (a – b)\nADD R3, R1, R2; R3 = (a – b) + [e – (c + d)]\nOR\nADD R1 R1 R2; R1 ← R1 + R2\nOR\nADD R2 R1 R2; R2 ← R1 + R2",
+      "explanation_html": "<p dir=\"ltr\"><span>LOAD R1 c; </span></p><p dir=\"ltr\"><span>LOAD R2 d; </span></p><p dir=\"ltr\"><span>ADD R1 R1 R2; R1 ← R1 + R2 ⇒ R1 = c + d </span></p><p dir=\"ltr\"><span>LOAD R2 e; </span></p><p dir=\"ltr\"><span>SUB R2, R2, R1; R2 ← R2 – R1⇒ R2 = e – (c + d) </span></p><p dir=\"ltr\"><span>LOAD R1 a; </span></p><p dir=\"ltr\"><span>LOAD R3 b; SUB R1, R1, R3; R1 ← R1 – R3 ; R1 = (a – b) </span></p><p dir=\"ltr\"><span>ADD R3, R1, R2; R3 = (a – b) + [e – (c + d)] </span></p><p dir=\"ltr\"><span>OR </span></p><p dir=\"ltr\"><span>ADD R1 R1 R2; R1 ← R1 + R2 </span></p><p dir=\"ltr\"><span>OR </span></p><p dir=\"ltr\"><span>ADD R2 R1 R2; R2 ← R1 + R2</span></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20250502175506406401/Screenshot-2025-05-02-175444.png\" alt=\"Screenshot-2025-05-02-175444\" width=\"308\" height=\"196\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20250502175506406401/Screenshot-2025-05-02-175444.png 308w,https://media.geeksforgeeks.org/wp-content/uploads/20250502175506406401/Screenshot-2025-05-02-175444-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20250502175506406401/Screenshot-2025-05-02-175444-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20250502175506406401/Screenshot-2025-05-02-175444-300.png 300w\" loading=\"auto\"><figcaption> </figcaption></figure><p dir=\"ltr\"><br></p>",
+      "created_on": "2025-05-02 - 17:55:49",
+      "updated_on": "2025-10-15 - 15:12:23"
+    },
+    {
+      "qno": 2,
+      "id": 151285,
+      "title": "COA || 2019 MCQ || 1-mark || Module 1: Introduction of COA2019 MCQ Types of Buses",
+      "slug": "2019-mcq-types-of-buses",
+      "question": "The chip select logic for a certain DRAM chip in a memory system design is shown below. Assume that the memory system has 16 address lines denoted by A15 to A0. What is the range of address (in hexadecimal) of the memory system that can get enabled by the chip select (CS) signal?\n[GATE 2019|| MCQ || 1-mark]",
+      "question_html": "<p dir=\"ltr\"><span>The chip select logic for a certain DRAM chip in a memory system design is shown below. Assume that the memory system has 16 address lines denoted by A15 to A0. What is the range of address (in hexadecimal) of the memory system that can get enabled by the chip select (CS) signal?</span></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20250502190147147623/Screenshot-2025-05-02-190125.png\" alt=\"Screenshot-2025-05-02-190125\" width=\"294\" height=\"101\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20250502190147147623/Screenshot-2025-05-02-190125.png 294w,https://media.geeksforgeeks.org/wp-content/uploads/20250502190147147623/Screenshot-2025-05-02-190125-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20250502190147147623/Screenshot-2025-05-02-190125-200.png 200w\" loading=\"auto\"><figcaption> </figcaption></figure><p dir=\"ltr\"><br><b><strong>[GATE 2019|| MCQ || 1-mark]</strong></b></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "C800 to CFFF",
+          "html": "<p dir=\"ltr\"><span>C800 to CFFF</span></p>",
+          "is_correct": true
+        },
+        {
+          "option_no": 2,
+          "text": "CA00 to CAFF",
+          "html": "<p dir=\"ltr\"><span>CA00 to CAFF</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "C800 to C8FF",
+          "html": "<p dir=\"ltr\"><span>C800 to C8FF</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 4,
+          "text": "DA00 to DFFF",
+          "html": "<p dir=\"ltr\"><span>DA00 to DFFF</span></p>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        1
+      ],
+      "explanation": "- The memory system has  16 address lines  (A15​ to A0​), meaning the address range spans 2 ^16  = 65536 addresses (0000h _h  to FFFF _h ​).\n- The chip select (CS) signal depends on four address lines: A15​, A14​, A13​, and A12​.\n- These lines are  inputs to an AND gate with NOT gates  on A14​ and A13​.\n- The AND gate activates CS if: A _15 =1, A _14 =0, A _13 =0, A _12 =1.\nA15 A14 A13 A12 A11 A10 A9 ... .... A0\n1 1 0 0 1 0 0 ... .... 0 = C800\n|-Chip select (CS)-| ... ... .... 1 = C801\n1 1 0 0 1 ... ... .... . = ...\n1 1 0 0 1 1 1 ... .... 1 = CFFF Combining the fixed upper nibble (C _h ​) with all possible values for the lower 12 bits (A _11 ​ to A _0 ​), the address range is:   C800 _h  to CFFF _h\nSo, option (A) is correct.",
+      "explanation_html": "<ul><li value=\"1\"><span>The memory system has&nbsp;</span><b><strong>16 address lines</strong></b><span>&nbsp;(A15​ to A0​), meaning the address range spans 2</span><sup><span>16</span></sup><span>&nbsp;= 65536 addresses (0000h</span><sub><span>h</span></sub><span>&nbsp;to FFFF</span><sub><span>h</span></sub><span>​).</span></li><li value=\"2\"><span>The chip select (CS) signal depends on four address lines: A15​, A14​, A13​, and A12​.</span></li><li value=\"3\"><span>These lines are&nbsp;</span><b><strong>inputs to an&nbsp;AND gate&nbsp;with&nbsp;NOT gates</strong></b><span>&nbsp;on A14​ and A13​.</span></li><li value=\"4\"><span>The AND gate activates CS if: A</span><sub><span>15</span></sub><span>=1, A</span><sub><span>14</span></sub><span>=0, A</span><sub><span>13</span></sub><span>=0, A</span><sub><span>12</span></sub><span>=1.</span></li></ul><pre><span>A15 A14 A13 A12 A11 A10 A9 ... .... A0 </span><br><span>1    1   0   0   1   0   0 ... .... 0  = C800 </span><br><span>|-Chip select (CS)-| ...   ... .... 1  = C801 </span><br><span>1    1   0   0   1   ...   ... .... .  = ... </span><br><span>1    1   0   0   1   1   1 ... .... 1  = CFFF </span></pre><p dir=\"ltr\" style=\"text-align: start;\"><span>Combining the fixed upper nibble (C</span><sub><span>h</span></sub><span>​) with all possible values for the lower 12 bits (A</span><sub><span>11</span></sub><span>​ to A</span><sub><span>0</span></sub><span>​), the address range is:</span><b><strong>&nbsp;</strong></b><span>C800</span><sub><span>h</span></sub><span>&nbsp;to CFFF</span><sub><span>h</span></sub></p><p dir=\"ltr\" style=\"text-align: start;\"><b><strong>So, option (A) is correct.</strong></b></p>",
+      "created_on": "2025-05-02 - 19:01:55",
+      "updated_on": "2025-10-15 - 13:20:23"
+    },
+    {
+      "qno": 3,
+      "id": 151281,
+      "title": "COA || 2010 MCQ || 2-mark || Module 1: Introduction of COA2010 MCQ Registers and its Types",
+      "slug": "2010-mcq-registers-and-its-types",
+      "question": "The program below uses six temporary variables a, b, c, d, e, f.\na = 1\nb = 10\nc = 20\nd = a+b\ne = c+d\nf = c+e\nb = c+e\ne = b+f\nd = 5+e\nreturn d+f Assuming that all operations take their operands from registers, what is the minimum number of registers needed to execute this program without spilling?\n[GATE 2010 MCQ || 2-mark]",
+      "question_html": "<p dir=\"ltr\"><span>The program below uses six temporary variables a, b, c, d, e, f.&nbsp;</span></p><pre><span>   a = 1</span><br><span>    b = 10</span><br><span>    c = 20</span><br><span>    d = a+b</span><br><span>    e = c+d</span><br><span>    f = c+e</span><br><span>    b = c+e</span><br><span>    e = b+f</span><br><span>    d = 5+e</span><br><span>    return d+f</span></pre><p dir=\"ltr\"><span>Assuming that all operations take their operands from registers, what is the minimum number of registers needed to execute this program without spilling?</span><br><b><strong>[GATE 2010 MCQ || 2-mark]</strong></b></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "2",
+          "html": "<p><span>2</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "3",
+          "html": "<p><span>3</span></p>",
+          "is_correct": true
+        },
+        {
+          "option_no": 3,
+          "text": "4",
+          "html": "<p><span>4</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 4,
+          "text": "6",
+          "html": "<p><span>6</span></p>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        2
+      ],
+      "explanation": "All of the given expressions use at-most 3 variables, so we never need more than 3 registers.\nIt requires minimum of 3 registers.\nPrinciple of Register Allocation : If a variable needs to be allocated to a register, the system checks for any free register available, if it finds one, it allocates. If there is no free register, then it checks for a register that contains a dead variable ( a variable whose value is not going to be used in the future ), and if it finds one then it allocates. Otherwise, it goes for Spilling ( it checks for a register whose value is needed after the longest time, saves its value into the memory, and then use that register for current allocation, later when the old value of the register is needed, the system gets it from the memory where it was saved and allocate it in any register which is available ).\nBut here we should not apply spilling as directed in the question.\nLet's allocate the registers for the variables.\na = 1 ( let's say register R1 is allocated for variable 'a' )\nb = 10 ( R2 for 'b' , because value of 'a' is going to be used in the future, hence can not replace variable of 'a' by that of 'b' in R1)\nc = 20 ( R3 for 'c', because values of 'a' and 'b' are going to be used in the future, hence can not replace variable 'a' or 'b' by 'c' in R1 or R2 respectively)\nd = a+b ( now, 'd' can be assigned to R1 because R1 contains a dead variable which is 'a' and it is so-called because it is not going to be used in future, i.e. no subsequent expression uses the value of variable 'a')\ne = c+d ( 'e' can be assigned to R1, because currently R1 contains value of variable 'd' which is not going to be used in the subsequent expression.)\nNote : an already calculated value of a variable is used only by READ operation ( not WRITE), hence we have to see only on the RHS side of the subsequent expressions whether the variable is going to be used or not.\nf = c+e ( ' f ' can be assigned to R2, because value of 'b' in register R2 is not going to be used in subsequent expressions, hence R2 can be used to allocate for ' f ' replacing 'b' )\nb = c+e ( ' b ' can be assigned to R3, because value of 'c' in R3 is not being used later )\ne = b+f ( here 'e' is already in R1, so no allocation here, direct assignment )\nd = 5+e ( 'd' can be assigned to either R1 or R3, because values in both are not used further, let's assign in R1 )\nreturn d+f ( no allocation here, simply contents of registers R1 and R2 are added and returned)\nhence we need only 3 registers, R1 R2 and R3.",
+      "explanation_html": "<p dir=\"ltr\"><span>All of the given expressions use at-most 3 variables, so we never need more than 3 registers.&nbsp;</span><br><span>It requires minimum of 3 registers.&nbsp;</span><br><br><b><strong>Principle of Register Allocation</strong></b><span>: If a variable needs to be allocated to a register, the system checks for any free register available, if it finds one, it allocates. If there is no free register, then it checks for a register that contains a dead variable ( a variable whose value is not going to be used in the future ), and if it finds one then it allocates. Otherwise, it goes for Spilling ( it checks for a register whose value is needed after the longest time, saves its value into the memory, and then use that register for current allocation, later when the old value of the register is needed, the system gets it from the memory where it was saved and allocate it in any register which is available ).&nbsp;</span><br><span>But here we should not apply spilling as directed in the question.&nbsp;</span><br><span>Let's allocate the registers for the variables.&nbsp;</span><br><span>a = 1 ( let's say register R1 is allocated for variable 'a' )&nbsp;</span><br><span>b = 10 ( R2 for 'b' , because value of 'a' is going to be used in the future, hence can not replace variable of 'a' by that of 'b' in R1)&nbsp;</span><br><span>c = 20 ( R3 for 'c', because values of 'a' and 'b' are going to be used in the future, hence can not replace variable 'a' or 'b' by 'c' in R1 or R2 respectively)&nbsp;</span><br><span>d = a+b ( now, 'd' can be assigned to R1 because R1 contains a dead variable which is 'a' and it is so-called because it is not going to be used in future, i.e. no subsequent expression uses the value of variable 'a')&nbsp;</span><br><span>e = c+d ( 'e' can be assigned to R1, because currently R1 contains value of variable 'd' which is not going to be used in the subsequent expression.)&nbsp;</span><br><b><strong>Note</strong></b><span>: an already calculated value of a variable is used only by READ operation ( not WRITE), hence we have to see only on the RHS side of the subsequent expressions whether the variable is going to be used or not.&nbsp;</span><br><span>f = c+e ( ' f ' can be assigned to R2, because value of 'b' in register R2 is not going to be used in subsequent expressions, hence R2 can be used to allocate for ' f ' replacing 'b' )&nbsp;</span><br><span>b = c+e ( ' b ' can be assigned to R3, because value of 'c' in R3 is not being used later )&nbsp;</span><br><span>e = b+f ( here 'e' is already in R1, so no allocation here, direct assignment )</span><br><span>d = 5+e ( 'd' can be assigned to either R1 or R3, because values in both are not used further, let's assign in R1 )&nbsp;</span><br><span>return d+f ( no allocation here, simply contents of registers R1 and R2 are added and returned)&nbsp;</span><br><br><span>hence we need only 3 registers, R1 R2 and R3.&nbsp;</span></p>",
+      "created_on": "2025-05-02 - 18:57:32",
+      "updated_on": "2025-10-15 - 13:23:04"
+    },
+    {
+      "qno": 4,
+      "id": 151278,
+      "title": "COA || 2012 MCQ || 1-mark || Module 1: Introduction of COA2012 MCQ Basics of COA",
+      "slug": "2012-mcq-basics-of-coa",
+      "question": "The amount of ROM needed to implement at 4 bit multiplier is\n[GATE 2012 MCQ || 1-mark ]",
+      "question_html": "<p dir=\"ltr\"><span>The amount of ROM needed to implement at 4 bit multiplier is</span><br><b><strong>[GATE 2012 MCQ || 1-mark ]</strong></b></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "64 bits",
+          "html": "<p dir=\"ltr\"><span>64 bits</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "128 bits",
+          "html": "<p dir=\"ltr\"><span>128 bits</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "1Kbits",
+          "html": "<p dir=\"ltr\"><span>1Kbits </span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 4,
+          "text": "2 Kbits",
+          "html": "<p dir=\"ltr\"><span>2 Kbits</span></p>",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        4
+      ],
+      "explanation": "For a 4 bit multiplier, there are 2 ^4  * 2 ^4  combinations, i.e., 2 ^8  combinations. Also, Output of a 4 bit multiplier is 8 bits. Thus, the amount of ROM needed = 2 ^8  * 8 = 2 ^11  = 2048 bits = 2Kbits",
+      "explanation_html": "<p dir=\"ltr\"><span>For a 4 bit multiplier, there are 2</span><sup><span>4</span></sup><span>&nbsp;* 2</span><sup><span>4</span></sup><span>&nbsp;combinations, i.e., 2</span><sup><span>8</span></sup><span>&nbsp;combinations. Also, Output of a 4 bit multiplier is 8 bits. Thus, the amount of ROM needed = 2</span><sup><span>8</span></sup><span>&nbsp;* 8 = 2</span><sup><span>11</span></sup><span>&nbsp;= 2048 bits = 2Kbits</span></p>",
+      "created_on": "2025-05-02 - 18:53:40",
+      "updated_on": "2025-10-15 - 13:24:18"
+    },
+    {
+      "qno": 5,
+      "id": 151267,
+      "title": "COA || 2024 MCQ || 2-mark || Module 3: Floating Point Representation2024 FLOTING",
+      "slug": "2024-floting",
+      "question": "The format of a single-precision floating-point number as per the IEEE 754 standard is:\nSign\n(1 bit)\nExponent\n(8 bits)\nMantissa\n(23 bits)\nChoose the largest floating-point number among the following options.\n[GATE 2024|| SET-2 MCQ || 2-mark ]",
+      "question_html": "<p dir=\"ltr\" style=\"text-align: start;\"><span>The format of a single-precision floating-point number as per the IEEE 754 standard is:</span></p><table><thead></thead><tbody><tr><td><p dir=\"ltr\"><span>Sign</span></p><p dir=\"ltr\"><span>(1 bit)</span></p></td><td><p dir=\"ltr\"><span>Exponent</span></p><p dir=\"ltr\"><span>(8 bits)</span></p></td><td><p dir=\"ltr\"><span>Mantissa</span></p><p dir=\"ltr\"><span>(23 bits)</span></p></td></tr></tbody></table><p dir=\"ltr\" style=\"text-align: start;\"><span>Choose the largest floating-point number among the following options.</span><br><b><strong>[GATE 2024|| SET-2 MCQ || 2-mark ]</strong></b></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "Sign - 0\nExponent - 0111 1111\nMantissa - 23 0’s",
+          "html": "<p dir=\"ltr\" style=\"text-align: start;\"><span>Sign - 0</span></p><p dir=\"ltr\" style=\"text-align: start;\"><span>Exponent - 0111 1111</span></p><p dir=\"ltr\" style=\"text-align: start;\"><span>Mantissa - 23 0’s</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "Sign - 0\nExponent - 0111 1111\nMantissa - 23 1’s",
+          "html": "<p dir=\"ltr\" style=\"text-align: start;\"><span>Sign - 0</span></p><p dir=\"ltr\" style=\"text-align: start;\"><span>Exponent - 0111 1111</span></p><p dir=\"ltr\" style=\"text-align: start;\"><span>Mantissa - 23 1’s</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "Sign - 0\nExponent - 111 11110\nMantissa - 23 1’s",
+          "html": "<p dir=\"ltr\" style=\"text-align: start;\"><br><span>Sign - 0</span></p><p dir=\"ltr\" style=\"text-align: start;\"><span>Exponent - 111 11110</span></p><p dir=\"ltr\" style=\"text-align: start;\"><span>Mantissa - 23 1’s</span></p>",
+          "is_correct": true
+        },
+        {
+          "option_no": 4,
+          "text": "Sign - 0\nExponent - 1111 1111\nMantissa - 23 1’s",
+          "html": "<p dir=\"ltr\" style=\"text-align: start;\"><br><span>Sign - 0</span></p><p dir=\"ltr\" style=\"text-align: start;\"><span>Exponent - 1111 1111</span></p><p dir=\"ltr\" style=\"text-align: start;\"><span>Mantissa - 23 1’s</span></p>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        3
+      ],
+      "explanation": "To determine the largest floating-point number from the options, we need to analyze each number according to the  IEEE 754 single-precision floating-point format :\nIEEE 754 Format Breakdown - Sign (1 bit):  0 for positive numbers.\n- Exponent (8 bits):  Encodes the power of 2, using a bias of 127. The actual exponent is calculated as: E = Exponent−127.\n- Mantissa (23 bits):  Represents the fractional part in normalized form 1.Mantissa. An implicit leading 1 is assumed.\nThe value of a floating-point number is given by:  Value = (−1) ^Sign  × 2 ^E  × (1.Mantissa)\nStep-by-Step Analysis of Options Option 1: - Sign:  0 (positive).\n- Exponent:  0111 1111 = 127, so E=127−127=0.\n- Mantissa:  23 0's, so 1.Mantissa=1.0.\nValue:  2 ^0  × 1.0 = 1.0\nOption 2: - Sign:  0 (positive).\n- Exponent:  0111 1111=127, so E=127−127=0.\n- Mantissa:  23 1's, so 1.Mantissa = 1.111…111 (23 1's).\nValue:  2 ^0  × 1.111…111 = 1 + 0.5 + 0.25 +… = 2.0−2 ^-23\nOption 3: - Sign:  0 (positive).\n- Exponent:  1111 1110 = 254, so E = 254−127 = 127.\n- Mantissa:  23 1's, so 1.Mantissa = 1.111…111 (23 1's).\nValue:  2 ^127  × (1.111…111) = 2 ^127  × (2.0−2 ^-23 ) ≈ 2 ^128  − 2 ^127 -23 .\nThis option Will give you the maximum value.\nOption 4: - Sign:  0 (positive).\n- Exponent:  1111 1111 = 255, indicating a  special value  (not a regular number).\n- Mantissa:  23 1's.\n- Since the exponent is 255 with a non-zero mantissa, this represents  NaN (Not a Number)  in IEEE 754.\nValue:  NaN (Not a Number)\nHence the correct option is (C) because it will give the maximum value.",
+      "explanation_html": "<p dir=\"ltr\" style=\"text-align: start;\"><span>To determine the largest floating-point number from the options, we need to analyze each number according to the&nbsp;</span><b><strong>IEEE 754 single-precision floating-point&nbsp;format</strong></b><span>:</span></p><h3 id=\"ieee-754-format-breakdown\" style=\"text-align:left\"><b><strong>IEEE 754 Format Breakdown</strong></b></h3><ul><li value=\"1\"><b><strong>Sign (1 bit):</strong></b><span>&nbsp;0 for positive numbers.</span></li><li value=\"2\"><b><strong>Exponent (8 bits):</strong></b><span>&nbsp;Encodes the power of 2, using a bias of 127. The actual exponent is calculated as: E = Exponent−127.</span></li><li value=\"3\"><b><strong>Mantissa (23 bits):</strong></b><span>&nbsp;Represents the fractional part in normalized form 1.Mantissa. An implicit leading 1 is assumed.</span></li></ul><p dir=\"ltr\" style=\"text-align: start;\"><span>The value of a floating-point number is given by:&nbsp;</span><b><strong>Value = (−1)</strong></b><b><sup><strong>Sign</strong></sup></b><b><strong>&nbsp;× 2</strong></b><b><sup><strong>E</strong></sup></b><b><strong>&nbsp;× (1.Mantissa)</strong></b></p><h3 id=\"stepbystep-analysis-of-options\" style=\"text-align:left\"><b><strong>Step-by-Step Analysis of Options</strong></b></h3><h4 id=\"option-1\" style=\"text-align:left\"><b><strong>Option 1:</strong></b></h4><ul><li value=\"1\"><b><strong>Sign:</strong></b><span>&nbsp;0 (positive).</span></li><li value=\"2\"><b><strong>Exponent:</strong></b><span>&nbsp;0111&nbsp;1111 = 127, so E=127−127=0.</span></li><li value=\"3\"><b><strong>Mantissa:</strong></b><span>&nbsp;23&nbsp;0's, so 1.Mantissa=1.0.</span></li></ul><p dir=\"ltr\" style=\"text-align: start;\"><b><strong>Value:</strong></b><span>&nbsp;2</span><sup><span>0</span></sup><span>&nbsp;× 1.0 = 1.0</span></p><h4 id=\"option-2\" style=\"text-align:left\"><b><strong>Option 2:</strong></b></h4><ul><li value=\"1\"><b><strong>Sign:</strong></b><span>&nbsp;0 (positive).</span></li><li value=\"2\"><b><strong>Exponent:</strong></b><span>&nbsp;0111&nbsp;1111=127, so E=127−127=0.</span></li><li value=\"3\"><b><strong>Mantissa:</strong></b><span>&nbsp;23&nbsp;1's, so 1.Mantissa = 1.111…111&nbsp;(23&nbsp;1's).</span></li></ul><p dir=\"ltr\" style=\"text-align: start;\"><b><strong>Value:</strong></b><span>&nbsp;2</span><sup><span>0&nbsp;</span></sup><span>× 1.111…111 = 1 + 0.5 + 0.25 +… = 2.0−2</span><sup><span>-23</span></sup></p><h4 id=\"option-3\" style=\"text-align:left\"><b><strong>Option 3:</strong></b></h4><ul><li value=\"1\"><b><strong>Sign:</strong></b><span>&nbsp;0 (positive).</span></li><li value=\"2\"><b><strong>Exponent:</strong></b><span>&nbsp;1111&nbsp;1110 = 254, so E = 254−127 = 127.</span></li><li value=\"3\"><b><strong>Mantissa:</strong></b><span>&nbsp;23&nbsp;1's, so 1.Mantissa = 1.111…111&nbsp;(23&nbsp;1's).</span></li></ul><p dir=\"ltr\" style=\"text-align: start;\"><b><strong>Value:&nbsp;</strong></b><span>2</span><sup><span>127&nbsp;</span></sup><span>× (1.111…111) = 2</span><sup><span>127</span></sup><span>&nbsp;× (2.0−2</span><sup><span>-23</span></sup><span>) ≈ 2</span><sup><span>128&nbsp;</span></sup><span>− 2</span><sup><span>127 -23</span></sup><span>.</span></p><p dir=\"ltr\" style=\"text-align: start;\"><b><strong>This option Will give you the maximum value.</strong></b></p><h4 id=\"option-4\" style=\"text-align:left\"><b><strong>Option 4:</strong></b></h4><ul><li value=\"1\"><b><strong>Sign:</strong></b><span>&nbsp;0 (positive).</span></li><li value=\"2\"><b><strong>Exponent:</strong></b><span>&nbsp;1111&nbsp;1111 = 255, indicating a&nbsp;</span><b><strong>special value</strong></b><span>&nbsp;(not a regular number).</span></li><li value=\"3\"><b><strong>Mantissa:</strong></b><span>&nbsp;23&nbsp;1's.</span></li><li value=\"4\"><span>Since the exponent is 255 with a non-zero mantissa, this represents&nbsp;</span><b><strong>NaN (Not a Number)</strong></b><span>&nbsp;in IEEE 754.</span></li></ul><p dir=\"ltr\" style=\"text-align: start;\"><b><strong>Value:&nbsp;</strong></b><span>NaN&nbsp;(Not&nbsp;a&nbsp;Number)</span></p><p dir=\"ltr\" style=\"text-align: start;\"><b><strong>Hence the correct option is (C) because it will give the maximum value.&nbsp;</strong></b></p>",
+      "created_on": "2025-05-02 - 18:47:47",
+      "updated_on": "2025-10-15 - 15:59:41"
+    },
+    {
+      "qno": 6,
+      "id": 151232,
+      "title": "COA || 2014 MCQ || 2-mark || Module 3: Floating Point Representation2014 FLOTING",
+      "slug": "2014-floting",
+      "question": "The value of a float type variable is represented using the single-precision 32-bit floating point format IEEE-754 standard that uses 1 bit for sign, 8 bits for biased exponent and 23 bits for mantissa. A float type variable X is assigned the decimal value of −14.25. The representation of X in hexadecimal notation is\n[GATE 2014 || SET-2 MCQ || 2-mark]",
+      "question_html": "<p dir=\"ltr\"><span>The value of a float type variable is represented using the single-precision 32-bit floating point format IEEE-754 standard that uses 1 bit for sign, 8 bits for biased exponent and 23 bits for mantissa. A float type variable X is assigned the decimal value of −14.25. The representation of X in hexadecimal notation is</span><br><b><strong>[GATE 2014 || SET-2 MCQ || 2-mark]</strong></b></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "C1640000H",
+          "html": "<p dir=\"ltr\"><span>C1640000H</span></p>",
+          "is_correct": true
+        },
+        {
+          "option_no": 2,
+          "text": "416C0000H",
+          "html": "<p dir=\"ltr\"><span>416C0000H</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "41640000H",
+          "html": "<p dir=\"ltr\"><span>41640000H</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 4,
+          "text": "C16C0000H",
+          "html": "<p dir=\"ltr\"><span>C16C0000H</span></p>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        1
+      ],
+      "explanation": "Since No is negative S bit will be 1\nConvert 14.25 into binary 1110.01\nNormalize it : 1.11001 X 2 ^ 3\nBiased Exponent (Add 127) : 3 + 127 = 130 (In binary 10000010)\nMantissa : 110010.....0 (Total 23 bits)\nNumber represented in IEEE 754 single precision format :\n1 10000010 11001000000000000000000\nIn Hex (Group of Four bits) -\n1100 0001 0110 0100 0000 0000 0000 0000\nNumber becomes : C1640000",
+      "explanation_html": "<pre><span>Since No is negative S bit will be 1</span><br><span>Convert 14.25 into binary 1110.01</span><br><span>Normalize it : 1.11001 X 2 ^ 3</span><br><span>Biased Exponent (Add 127) : 3 + 127 = 130 (In binary 10000010)</span><br><span>Mantissa : 110010.....0 (Total 23 bits)</span><br><br><span>Number represented in IEEE 754 single precision format :</span><br><br><span>1 10000010 11001000000000000000000</span><br><br><span>In Hex (Group of Four bits) -</span><br><br><span>1100 0001 0110 0100 0000 0000 0000 0000</span><br><br><span>Number becomes : C1640000</span></pre>",
+      "created_on": "2025-05-02 - 18:35:33",
+      "updated_on": "2025-10-15 - 16:03:20"
+    },
+    {
+      "qno": 7,
+      "id": 151210,
+      "title": "COA || 2023 MCQ || 2-mark || Module 3: Floating Point Representation2023 MCQ Basics of COA",
+      "slug": "2023-mcq-basics-of-coa",
+      "question": "Consider the IEEE-754 single precision ﬂoating point numbers P=0xC1800000 and Q=0x3F5C2EF4. Which one of the following corresponds to the product of these numbers (i.e., P × Q), represented in the IEEE-754 single precision format? [GATE 2023 || MCQ || 2-mark]",
+      "question_html": "<p dir=\"ltr\"><span>Consider the IEEE-754 single precision ﬂoating point numbers P=0xC1800000 and Q=0x3F5C2EF4. Which one of the following corresponds to the product of these numbers (i.e., P × Q), represented in the IEEE-754 single precision format?  </span><b><strong>[GATE 2023 || MCQ || 2-mark]</strong></b></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "0x404C2EF4",
+          "html": "<p dir=\"ltr\"><span>0x404C2EF4</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "0x405C2EF4",
+          "html": "<p dir=\"ltr\"><span>0x405C2EF4</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "0xC15C2EF4",
+          "html": "<p dir=\"ltr\"><span>0xC15C2EF4</span></p>",
+          "is_correct": true
+        },
+        {
+          "option_no": 4,
+          "text": "0xC14C2EF4",
+          "html": "<p dir=\"ltr\"><span>0xC14C2EF4</span></p>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        3
+      ],
+      "explanation": "Given floating point number in hexadecimal format.\nP = 0×C1800000\nQ = 0×3F5C2EF4\nSingle precision exponent is represented in excess-127 format.\nActual exponent = 132 – 127 = 4\nFractional or mantissa part is 0.\nWe need to convert it is actual exponent.\nActual exponent = 126 – 127 = –1\nSign bit = 0 (+ve)\nActual exponent = –1\nFraction = .10111000010111011110100\nQ = (1.10111000010111011110100) × 2–1\nData = P×Q–(1.0)×2+4 × (1.1011.1000010111011110100)×2–1\nData = –(1.10111000010111011110100)×2+3\nSign bit = 1 Biased exponent = Actual exponent + 127 = 3 + 127 = 130\nFraction/Mantina = 10111000010111011110100 IEEE standard floating-point format",
+      "explanation_html": "<p dir=\"ltr\"><span>Given floating point number in hexadecimal format. &nbsp;</span><br><span>P = 0×C1800000 &nbsp;</span><br><span>Q = 0×3F5C2EF4&nbsp;</span></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20230804131449/45_1-300.png\" alt=\"45_1\" width=\"300\" height=\"202\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20230804131449/45_1.png 506w,https://media.geeksforgeeks.org/wp-content/uploads/20230804131449/45_1-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20230804131449/45_1-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20230804131449/45_1-300.png 300w\"><figcaption> </figcaption></figure><p dir=\"ltr\"><span>Single precision exponent is represented in excess-127 format. &nbsp;</span><br><span>Actual exponent = 132 – 127 = 4 &nbsp;</span><br><span>Fractional or mantissa part is 0. &nbsp;</span></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20250502182542120683/Screenshot-2025-05-02-182529-300.png\" alt=\"Screenshot-2025-05-02-182529\" width=\"300\" height=\"119\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20250502182542120683/Screenshot-2025-05-02-182529.png 894w,https://media.geeksforgeeks.org/wp-content/uploads/20250502182542120683/Screenshot-2025-05-02-182529-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20250502182542120683/Screenshot-2025-05-02-182529-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20250502182542120683/Screenshot-2025-05-02-182529-300.png 300w,https://media.geeksforgeeks.org/wp-content/uploads/20250502182542120683/Screenshot-2025-05-02-182529-660.png 660w,https://media.geeksforgeeks.org/wp-content/uploads/20250502182542120683/Screenshot-2025-05-02-182529-768.png 768w\"><figcaption> </figcaption></figure><p dir=\"ltr\"><span>We need to convert it is actual exponent. &nbsp;</span><br><span>Actual exponent = 126 – 127 = –1 &nbsp;</span><br><span>Sign bit = 0 (+ve) &nbsp;</span><br><span>Actual exponent = –1 &nbsp;</span><br><span>Fraction = .10111000010111011110100 &nbsp;</span><br><span>Q = (1.10111000010111011110100) × 2–1 &nbsp;</span><br><span>Data = P×Q–(1.0)×2+4 × (1.1011.1000010111011110100)×2–1 &nbsp;</span><br><span>Data = –(1.10111000010111011110100)×2+3 &nbsp;</span><br><span>Sign bit = 1 Biased exponent = Actual exponent + 127 = 3 + 127 = 130 &nbsp;</span><br><span>Fraction/Mantina = 10111000010111011110100&nbsp;IEEE standard floating-point format</span></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20250502182715699065/Screenshot-2025-05-02-182700.png\" alt=\"Screenshot-2025-05-02-182700\" width=\"842\" height=\"370\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20250502182715699065/Screenshot-2025-05-02-182700.png 842w,https://media.geeksforgeeks.org/wp-content/uploads/20250502182715699065/Screenshot-2025-05-02-182700-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20250502182715699065/Screenshot-2025-05-02-182700-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20250502182715699065/Screenshot-2025-05-02-182700-300.png 300w,https://media.geeksforgeeks.org/wp-content/uploads/20250502182715699065/Screenshot-2025-05-02-182700-660.png 660w,https://media.geeksforgeeks.org/wp-content/uploads/20250502182715699065/Screenshot-2025-05-02-182700-768.png 768w\" loading=\"auto\"><figcaption> </figcaption></figure><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p>",
+      "created_on": "2025-05-02 - 18:28:14",
+      "updated_on": "2025-10-15 - 16:07:40"
+    },
+    {
+      "qno": 8,
+      "id": 151183,
+      "title": "COA || 2011 MCQ || 1-mark || Module 2: Instruction format & Addressing Mode2011 MCQ Addressing Modes",
+      "slug": "2011-mcq-addressing-modes",
+      "question": "Consider a hypothetical processor with an instruction of type LW R1, 20(R2), which during execution reads a 32-bit word from memory and stores it in a 32-bit register R1. The effective address of the memory location is obtained by the addition of a constant 20 and the contents of register R2. Which of the following best reflects the addressing mode implemented by this instruction for operand in memory?\n[GATE 2011 MCQ || 1-mark]",
+      "question_html": "<p dir=\"ltr\"><span>Consider a hypothetical processor with an instruction of type LW R1, 20(R2), which during execution reads a 32-bit word from memory and stores it in a 32-bit register R1. The effective address of the memory location is obtained by the addition of a constant 20 and the contents of register R2. Which of the following best reflects the addressing mode implemented by this instruction for operand in memory?</span><br><b><strong>[GATE  2011 MCQ || 1-mark]</strong></b></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "Immediate Addressing",
+          "html": "<p dir=\"ltr\"><span>Immediate Addressing</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "Register Addressing",
+          "html": "<p dir=\"ltr\"><span>Register Addressing</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "Register Indirect Scaled Addressing",
+          "html": "<p dir=\"ltr\"><span>Register Indirect Scaled Addressing</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 4,
+          "text": "Base Indexed Addressing",
+          "html": "<p dir=\"ltr\"><span>Base Indexed Addressing</span></p>",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        4
+      ],
+      "explanation": "Base Index Addressing, as the content of register R2 will serve as the index, and 20 will be the Base address.",
+      "explanation_html": "<p dir=\"ltr\"><span>Base Index Addressing, as the content of register&nbsp;R2&nbsp;will serve as the index, and&nbsp;20&nbsp;will be the Base address.</span></p>",
+      "created_on": "2025-05-02 - 18:10:21",
+      "updated_on": "2025-10-15 - 15:14:35"
+    },
+    {
+      "qno": 9,
+      "id": 151173,
+      "title": "COA || 2017 MCQ || 1-mark || Module 2: Instruction format & Addressing Mode2017 MCQ Addressing Modes",
+      "slug": "2017-mcq-addressing-modes",
+      "question": "Consider the C struct defines below:\nstruct data {\nint marks [100] ;\nchar grade;\nint cnumber;\n};\nstruct data student; The base address of\nstudent\nis available in register R1. The field\nstudent.grade\ncan be accessed efficiently using\n[GATE 2017|| SET-1 MCQ || 1-mark]",
+      "question_html": "<p dir=\"ltr\"><span>Consider the C struct defines below:</span></p><pre><span>struct data { \n    int marks [100] ; \n    char grade; \n    int cnumber; \n};\n \nstruct data student; </span></pre><p dir=\"ltr\" style=\"text-align: start;\"><span>The base address of</span></p><p dir=\"ltr\" style=\"text-align: start;\"><b><strong>student</strong></b></p><p dir=\"ltr\" style=\"text-align: start;\"><span>is available in register R1. The field</span></p><p dir=\"ltr\" style=\"text-align: start;\"><b><strong>student.grade</strong></b></p><p dir=\"ltr\" style=\"text-align: start;\"><span>can be accessed efficiently using</span><br><b><strong>[GATE 2017|| SET-1 MCQ || 1-mark]</strong></b></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "Post-increment addressing mode. (R1)+",
+          "html": "<p dir=\"ltr\"><span>Post-increment addressing mode. (R1)+</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "Pre-decrement addressing mode, -(R1)",
+          "html": "<p dir=\"ltr\"><span>Pre-decrement addressing mode, -(R1)</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "Register direct addressing mode, R1",
+          "html": "<p dir=\"ltr\"><span>Register direct addressing mode, R1</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 4,
+          "text": "Index addressing mode, X(R1), where X is an offset represented in 2’s complement 16-bit representation.",
+          "html": "<p dir=\"ltr\"><span>Index addressing mode, X(R1), where X is an offset represented in 2’s complement 16-bit representation.</span></p>",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        4
+      ],
+      "explanation": "The address of student grade can only be accessed by using the base address of Student.\n- Post-increment addressing mode. (R1)+ - Will give the next address and not the desired grade address\n- Pre-decrement addressing mode, -(R1) - Will give the previous address and not the desired grade address\n- Register direct addressing mode, R1 : In this mode, the address of the operand is embedded in the instruction code.\n- Index addressing mode:  It is the  only mode which gives access to next address by adding displacement in base address  using displacement mode. . Base register contains a pointer to a memory location. An integer (constant) is also referred to as a displacement. The address of the operand is obtained by adding the contents of the base register plus the constant.",
+      "explanation_html": "<p dir=\"ltr\" style=\"text-align: start;\"><span>The address of student grade can only be accessed by using the base address of Student.</span></p><ul><li value=\"1\"><span>Post-increment addressing mode. (R1)+ - Will give the next address and not the desired grade address</span></li><li value=\"2\"><span>Pre-decrement addressing mode, -(R1) -&nbsp;Will give the previous&nbsp;address and not the desired grade address</span></li><li value=\"3\"><span>Register direct addressing mode, R1 : In this mode, the address of the operand is embedded in the instruction code.</span></li><li value=\"4\"><b><strong>Index addressing mode:</strong></b><span>&nbsp;It is the&nbsp;</span><b><strong>only mode which gives access to&nbsp;next address by adding displacement in base address</strong></b><span>&nbsp;using displacement mode.&nbsp;. Base register contains a pointer to a memory location. An integer (constant) is also referred to as a displacement. The address of the operand is obtained by adding the contents of the base register plus the constant.</span></li></ul>",
+      "created_on": "2025-05-02 - 18:01:56",
+      "updated_on": "2025-10-15 - 15:44:14"
+    },
+    {
+      "qno": 10,
+      "id": 150418,
+      "title": "COA || 2021 NAT || 2-mark || Module 2: Instruction format & Addressing Mode2021 NAT Instruction Set Architecture",
+      "slug": "2021-nat-instruction-set-architecture",
+      "question": "Consider the following instruction sequence where registers R1, R2 and R3 are general purpose and MEMORY [X] denotes the content at the memory location X.\nAssume that the content of the memory location 5000 is 10, and the content of the register R3 R 3​ is 3000. The content of each of the memory locations from 3000 to 3020 is 50. The instruction sequence starts from the memory location 1000. All the numbers are in decimal format. Assume that the memory is byte addressable.\nAfter the execution of the program, the content of memory location 3010 is ____________?\n[GATE 2021 || SET-1 NAT || 2-mark]",
+      "question_html": "<p dir=\"ltr\"><span>Consider the following instruction sequence where registers R1, R2 and R3 are general purpose and MEMORY [X] denotes the content at the memory location X.</span></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20250501145003537184/Screenshot-2025-05-01-144944.png\" alt=\"Screenshot-2025-05-01-144944\" width=\"393\" height=\"403\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20250501145003537184/Screenshot-2025-05-01-144944.png 393w,https://media.geeksforgeeks.org/wp-content/uploads/20250501145003537184/Screenshot-2025-05-01-144944-100.png 98w,https://media.geeksforgeeks.org/wp-content/uploads/20250501145003537184/Screenshot-2025-05-01-144944-200.png 195w,https://media.geeksforgeeks.org/wp-content/uploads/20250501145003537184/Screenshot-2025-05-01-144944-300.png 293w\" loading=\"auto\"><figcaption> </figcaption></figure><p dir=\"ltr\"><span>Assume that the content of the memory location 5000 is 10, and the content of the register&nbsp;R3</span><i><em class=\"GFGEditorTheme__textItalic\">R</em></i><span>3​&nbsp;is 3000. The content of each of the memory locations from 3000 to 3020 is 50. The instruction sequence starts from the memory location 1000. All the numbers are in decimal format. Assume that the memory is byte addressable.</span><br><span>After the execution of the program, the content of memory location 3010 is ____________? </span><br><b><strong>[GATE 2021 || SET-1 NAT || 2-mark]</strong></b></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "50",
+          "html": "<p><span>50</span></p>",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        1
+      ],
+      "explanation": "At address 1004, the second instruction is present. Instruction from 2 nd to 7 th are in loop, loop will be terminated when R1 becomes zero. In the first iteration value at address “3000” will be 60. In the second iteration, value at address 3001 is 59 and so on. At the 10 th iteration the value of memory location 3009 is 51. The value “50” remain same at address 3010. So the correct answer is “50”.",
+      "explanation_html": "<figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20250501145231994771/Screenshot-2025-05-01-145215.png\" alt=\"Screenshot-2025-05-01-145215\" width=\"200\" height=\"368\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20250501145231994771/Screenshot-2025-05-01-145215.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20250501145231994771/Screenshot-2025-05-01-145215-100.png 54w\" loading=\"auto\"><figcaption> </figcaption></figure><p dir=\"ltr\"><span>At address 1004, the second instruction is present. Instruction from 2 nd to 7 th are in loop, loop will be terminated when R1 becomes zero. In the first iteration value at address “3000” will be 60. In the second iteration, value at address 3001 is 59 and so on. At the 10 th iteration the value of memory location 3009 is 51. The value “50” remain same at address 3010. So the correct answer is “50”. </span></p>",
+      "created_on": "2025-05-01 - 14:53:22",
+      "updated_on": "2025-10-15 - 14:40:38"
+    },
+    {
+      "qno": 11,
+      "id": 151147,
+      "title": "COA || 2014 NAT || 2-mark || Module 2: Instruction format & Addressing Mode2014 NAT Instruction Set Architecture",
+      "slug": "2014-nat-instruction-set-architecture",
+      "question": "A machine has a 32-bit architecture, with 1-word long instructions. It has 64 registers, each of which is 32 bits long. It needs to support 45 instructions, which have an immediate operand in addition to two register operands. Assuming that the immediate operand is an unsigned integer, the maximum value of the immediate operand is ________.\n[GATE 2014 || SET-1 NAT || 2-mark]",
+      "question_html": "<p dir=\"ltr\"><span>A machine has a 32-bit architecture, with 1-word long instructions. It has 64 registers, each of which is 32 bits long. It needs to support 45 instructions, which have an immediate operand in addition to two register operands. Assuming that the immediate operand is an unsigned integer, the maximum value of the immediate operand is ________. </span><br><b><strong>[GATE  2014 || SET-1 NAT || 2-mark]</strong></b></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "16383",
+          "html": "<p><span>16383</span></p>",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        1
+      ],
+      "explanation": "Instruction size = 1 word = 32 bit\n45 Operation = 6 bit\n64 Register = 6 bit\nImmediate field = 32 – (6 + 6 + 6)\n= 14 bit\nImmediate field Range = 0 to 2 ^14 –1 = 16383",
+      "explanation_html": "<p dir=\"ltr\"><span>Instruction size = 1 word = 32 bit</span></p><p dir=\"ltr\"><span>45 Operation = 6 bit</span></p><p dir=\"ltr\"><span>64 Register = 6 bit</span></p><p dir=\"ltr\"><span>Immediate field = 32 – (6 + 6 + 6)</span></p><p dir=\"ltr\"><span>                             = 14 bit</span></p><p dir=\"ltr\"><span>Immediate field Range = 0 to 2</span><sup><span>14</span></sup><span> –1 = 16383</span></p>",
+      "created_on": "2025-05-02 - 17:40:29",
+      "updated_on": "2025-10-15 - 15:09:16"
+    },
+    {
+      "qno": 12,
+      "id": 151139,
+      "title": "COA || 2015 MCQ || 2-mark || Module 2: Instruction format & Addressing Mode2015 MCQ Instruction Set Architecture",
+      "slug": "2015-mcq-instruction-set-architecture-1",
+      "question": "Consider a processor with byte-addressable memory. Assume that all registers, including Program Counter (PC) and Program Status Word (PSW), are of size 2 bytes. A stack in the main memory is implemented from memory location (0100) _16 and it grows upward. The stack pointer (SP) points to the top element of the stack. The current value of SP is (016E)16. The CALL instruction is of two words, the first word is the op-code and the second word is the starting address of the subroutine (one word = 2 bytes). The CALL instruction is implemented as follows:\n• Store the current value of PC in the stack.\n• Store the value of PSW register in the stack.\n• Load the starting address of the subroutine in PC.\nThe content of PC just before the fetch of a CALL instruction is (5FA0) _16 . After execution of the CALL instruction, the value of the stack pointer is\n[GATE 2015 || SET-2 MCQ || 2-mark]",
+      "question_html": "<p dir=\"ltr\"><span>Consider a processor with byte-addressable memory. Assume that all registers, including Program Counter (PC) and Program Status Word (PSW), are of size 2 bytes. A stack in the main memory is implemented from memory location (0100)</span><sub><span>16</span></sub><span> and it grows upward. The stack pointer (SP) points to the top element of the stack. The current value of SP is (016E)16. The CALL instruction is of two words, the first word is the op-code and the second word is the starting address of the subroutine (one word = 2 bytes). The CALL instruction is implemented as follows: </span></p><p dir=\"ltr\"><span>• Store the current value of PC in the stack. </span></p><p dir=\"ltr\"><span>• Store the value of PSW register in the stack. </span></p><p dir=\"ltr\"><span>• Load the starting address of the subroutine in PC. </span></p><p dir=\"ltr\"><span>The content of PC just before the fetch of a CALL instruction is (5FA0)</span><sub><span>16</span></sub><span>. After execution of the CALL instruction, the value of the stack pointer is</span><br><b><strong>[GATE 2015 || SET-2 MCQ || 2-mark]</strong></b></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "(016A) _16",
+          "html": "<p dir=\"ltr\"><span>(016A)</span><sub><span>16</span></sub></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "(016C) _16",
+          "html": "<p dir=\"ltr\"><span>(016C)</span><sub><span>16</span></sub></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "(0170) _16",
+          "html": "<p><span>(0170)</span><sub><span>16</span></sub></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 4,
+          "text": "(0172) _16",
+          "html": "<p><span>(0172)</span><sub><span>16</span></sub></p>",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        4
+      ],
+      "explanation": "Given\nCurrent SP value is = (016E) _16\nPC = 2 Byte, PSW = 2 byte\n(1) Store the current value of PC into the stack.\nHere PC is 2 byte so stack pointer to increased by 2 bytes\n(016E) _2 + 2 = (0170) _16\n(2) Store the value of PSW in the stack Here PSW is also 2 byte long. So SP increased by 2 byte\n(0170) _16 + 2 = (0172) _16 SP = (0172) _16\n(3) Load the starting address of the subroutine in the PC.\nPC ← ISR\nSP= (0172) _16",
+      "explanation_html": "<p dir=\"ltr\"><span>Given </span></p><p dir=\"ltr\"><span>Current SP value is = (016E)</span><sub><span>16 </span></sub></p><p dir=\"ltr\"><span>PC = 2 Byte, PSW = 2 byte </span></p><p dir=\"ltr\"><span>(1) Store the current value of PC into the stack. </span></p><p dir=\"ltr\"><span>Here PC is 2 byte so stack pointer to increased by 2 bytes </span></p><p dir=\"ltr\"><span>(016E)</span><sub><span>2</span></sub><span> + 2 = (0170)</span><sub><span>16</span></sub></p><p dir=\"ltr\"><span>(2) Store the value of PSW in the stack Here PSW is also 2 byte long. So SP increased by 2 byte </span></p><p dir=\"ltr\"><span>(0170)</span><sub><span>16 </span></sub><span>+ 2 = (0172)</span><sub><span>16</span></sub><span>  SP = (0172)</span><sub><span>16 </span></sub></p><p dir=\"ltr\"><span>(3) Load the starting address of the subroutine in the PC. </span></p><p dir=\"ltr\"><span>PC ← ISR</span></p><p dir=\"ltr\"><span>SP= (0172)</span><sub><span>16 </span></sub></p>",
+      "created_on": "2025-05-02 - 17:33:24",
+      "updated_on": "2025-10-15 - 15:04:54"
+    },
+    {
+      "qno": 13,
+      "id": 151131,
+      "title": "COA || 2015 MCQ || 1-mark || Module 2: Instruction format & Addressing Mode2015 MCQ Instruction Set Architecture",
+      "slug": "2015-mcq-instruction-set-architecture",
+      "question": "For computers based on three-address instruction formats, each address field can be used to specify which of the following:\nS1: A memory operand\nS2: A processor register\nS3: An implied accumulator register\n[GATE 2015|| SET-1 MCQ || 1-mark]",
+      "question_html": "<p dir=\"ltr\"><span>For computers based on three-address instruction formats, each address field can be used to specify which of the following: </span></p><p dir=\"ltr\"><span>S1: A memory operand </span></p><p dir=\"ltr\"><span>S2: A processor register </span></p><p dir=\"ltr\"><span>S3: An implied accumulator register</span><br><b><strong>[GATE 2015|| SET-1 MCQ || 1-mark]</strong></b></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "Either S1 or S2",
+          "html": "<p dir=\"ltr\"><span>Either S1 or S2 </span></p>",
+          "is_correct": true
+        },
+        {
+          "option_no": 2,
+          "text": "Either S2 or S3",
+          "html": "<p dir=\"ltr\"><span>Either S2 or S3</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "Only S2 and S3",
+          "html": "<p dir=\"ltr\"><span>Only S2 and S3 </span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 4,
+          "text": "All of S1, S2 and S3",
+          "html": "<p dir=\"ltr\"><span>All of S1, S2 and S3</span></p>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        1
+      ],
+      "explanation": "Memory operand Or Register operand\nBut Accumulator is a special purpose Register",
+      "explanation_html": "<p dir=\"ltr\"><span>Memory operand Or Register operand </span></p><p dir=\"ltr\"><span>But Accumulator is a special purpose Register</span></p>",
+      "created_on": "2025-05-02 - 17:23:31",
+      "updated_on": "2025-10-15 - 14:59:41"
+    },
+    {
+      "qno": 14,
+      "id": 151115,
+      "title": "COA || 2016 NAT || 1-mark || Module 2: Instruction format & Addressing Mode2016 NAT Instruction Set Architecture",
+      "slug": "2016-nat-instruction-set-architecture-1",
+      "question": "A Processor has 40 distinct instructions and 24 general purpose registers. A 32-bit instruction word has an opcode, two register operands and an immediate operand. The number of bits available for the immediate operand field is _____. [GATE 2016|| SET-2 NAT || 1-mark]",
+      "question_html": "<p dir=\"ltr\"><span>A Processor has 40 distinct instructions and 24 general purpose registers. A 32-bit instruction word has an opcode, two register operands and an immediate operand. The number of bits available for the immediate operand field is _____.</span><b><strong>[GATE 2016|| SET-2 NAT || 1-mark]</strong></b></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "16",
+          "html": "<p><span>16</span></p>",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        1
+      ],
+      "explanation": "40 Distinct Instruction/operation OP code = 16 bit\n24 register = 5 bit\nImmediate field = 32 – (5 + 5 + 6) =16 bit",
+      "explanation_html": "<p dir=\"ltr\"><span>40 Distinct Instruction/operation OP code = 16 bit</span></p><p dir=\"ltr\"><span>24 register = 5 bit</span></p><p dir=\"ltr\"><span>Immediate field = 32 – (5 + 5 + 6) =16 bit</span></p>",
+      "created_on": "2025-05-02 - 17:16:24",
+      "updated_on": "2025-10-15 - 14:57:01"
+    },
+    {
+      "qno": 15,
+      "id": 151100,
+      "title": "COA || 2016 NAT || 2-mark || Module 2: Instruction format & Addressing Mode2016 NAT Instruction Set Architecture",
+      "slug": "2016-nat-instruction-set-architecture",
+      "question": "Consider a Processor with 64 registers and an instruction set of size twelve. Each instruction has five distinct fields, namely, opcode, two source register identifiers, one destination register identifier, and a twelve-bit immediate value. Each instruction must be stored in memory in a bytealigned fashion. If a program has 100 instructions, the amount of memory (in bytes) consumed by the program text is _____.\n[GATE 2016 || SET - 2 ||NAT || 2-mark]",
+      "question_html": "<p dir=\"ltr\"><span>Consider a Processor with 64 registers and an instruction set of size twelve. Each instruction has five distinct fields, namely, opcode, two source register identifiers, one destination register identifier, and a twelve-bit immediate value. Each instruction must be stored in memory in a bytealigned fashion. If a program has 100 instructions, the amount of memory (in bytes) consumed by the program text is _____. </span><br><b><strong>[GATE 2016 || SET - 2 ||NAT || 2-mark]</strong></b></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "500",
+          "html": "<p><span>500</span></p>",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        1
+      ],
+      "explanation": "64 Register,\nInstruction set size = 12\n5 Fields = Opcode, Source Reg1, S Reg2, D Reg2, 12 bit Immediate field\n64 Register → Reg. AF = 6bit\nInstruction size = 4 + 6 + 6 + 6 +12 = 34 bits = 5 Byte\nProgram having = 100 Inst.\nProgram size = 100 × 5B = 500 byte.",
+      "explanation_html": "<p dir=\"ltr\"><span>64 Register, </span></p><p dir=\"ltr\"><span>Instruction set size = 12 </span></p><p dir=\"ltr\"><span>5 Fields = Opcode, Source Reg1, S Reg2, D Reg2, 12 bit Immediate field</span></p><p dir=\"ltr\"><span>64 Register → Reg. AF = 6bit</span></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20250502170837801771/Screenshot-2025-05-02-170820.png\" alt=\"Screenshot-2025-05-02-170820\" width=\"345\" height=\"107\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20250502170837801771/Screenshot-2025-05-02-170820.png 345w,https://media.geeksforgeeks.org/wp-content/uploads/20250502170837801771/Screenshot-2025-05-02-170820-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20250502170837801771/Screenshot-2025-05-02-170820-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20250502170837801771/Screenshot-2025-05-02-170820-300.png 300w\" loading=\"auto\"><figcaption> </figcaption></figure><p dir=\"ltr\"><span>Instruction size = 4 + 6 + 6 + 6 +12  = 34 bits = 5 Byte </span></p><p dir=\"ltr\"><span>Program having = 100 Inst. </span></p><p dir=\"ltr\"><span>Program size = 100 × 5B = 500 byte. </span></p>",
+      "created_on": "2025-05-02 - 17:09:02",
+      "updated_on": "2025-10-15 - 14:51:31"
+    },
+    {
+      "qno": 16,
+      "id": 150431,
+      "title": "COA || 2018 MCQ || 1-mark || Module 2: Instruction format & Addressing Mode2018 MCQ Instruction Set Architecture",
+      "slug": "2018-mcq-instruction-set-architecture",
+      "question": "The following are some events that occur after a device controller issues an interrupt while process L is under execution.\n(P) The Processor pushes the process status of L onto the control stack.\n(Q) The processor finishes the execution of the current instruction.\n(R) The processor executes the interrupt service routine.\n(S) The processor pops the process status of L from the control stack.\n(T) The processor loads the new PC value based on the interrupt.\nWhich one of the following is the correct order in which the events above occur?\n[GATE 2018 || MCQ || 1-mark]",
+      "question_html": "<p dir=\"ltr\"><span>The following are some events that occur after a device controller issues an interrupt while process L is under execution. </span></p><p dir=\"ltr\"><span>(P) The Processor pushes the process status of L onto the control stack. </span></p><p dir=\"ltr\"><span>(Q) The processor finishes the execution of the current instruction. </span></p><p dir=\"ltr\"><span>(R) The processor executes the interrupt service routine. </span></p><p dir=\"ltr\"><span>(S) The processor pops the process status of L from the control stack. </span></p><p dir=\"ltr\"><span>(T) The processor loads the new PC value based on the interrupt. </span></p><p dir=\"ltr\"><span>Which one of the following is the correct order in which the events above occur? </span><br><b><strong>[GATE 2018 || MCQ || 1-mark]</strong></b></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "QPTRS",
+          "html": "<p dir=\"ltr\"><span>QPTRS </span></p>",
+          "is_correct": true
+        },
+        {
+          "option_no": 2,
+          "text": "PTRSQ",
+          "html": "<p dir=\"ltr\"><span>PTRSQ </span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "TRPQS",
+          "html": "<p dir=\"ltr\"><span>TRPQS</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 4,
+          "text": "QTPRS",
+          "html": "<p dir=\"ltr\"><span>QTPRS </span></p>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        1
+      ],
+      "explanation": "When Interrupt occur, after completion of current Instruction.\nInterrupt will be serviced, It push the program current [PC] value into stack & control transfer to ISR.\nQ: Process finish the current instruction execution\nP: PUSH the PC value into stack T: Interrupt → PC\nR: Service the Interrupt\nS: Pop the PC value",
+      "explanation_html": "<p dir=\"ltr\"><span>When Interrupt occur, after completion of current Instruction. </span></p><p dir=\"ltr\"><span>Interrupt will be serviced, It push the program current [PC] value into stack &amp; control transfer to ISR. </span></p><p dir=\"ltr\"><span>Q: Process finish the current instruction execution </span></p><p dir=\"ltr\"><span>P: PUSH the PC value into stack T: Interrupt → PC </span></p><p dir=\"ltr\"><span>R: Service the Interrupt </span></p><p dir=\"ltr\"><span>S: Pop the PC value</span></p>",
+      "created_on": "2025-05-01 - 15:21:36",
+      "updated_on": "2025-10-15 - 14:48:17"
+    },
+    {
+      "qno": 17,
+      "id": 150426,
+      "title": "COA || 2018 NAT || 2-mark || Module 2: Instruction format & Addressing Mode2018 NAT Instruction Set Architecture",
+      "slug": "2018-nat-instruction-set-architecture",
+      "question": "A processor has 16 integer registers (R0, R1, …., R15) and 64 floating point registers (F0, F1, …., F63). It uses a 2-byte instruction format. There are four categories of instructions: Type-1, Type-2, Type-3 and Type-4. Type-1 category consists of four instructions, each with 3 integer register operands (3Rs). Type-2 category consists of eight instructions, each with 2 floating point register operands (2Fs). Type-3 category consists of fourteen instructions, each with one integer register operand and one floating point register operand (1R+1F). Type-4 category consists of N instructions, each with a floating-point register operand (1F). The maximum value of N is ________.\n[GATE 2018|| NAT || 2-mark]",
+      "question_html": "<p dir=\"ltr\"><span>A processor has 16 integer registers (R0, R1, …., R15) and 64 floating point registers (F0, F1, …., F63). It uses a 2-byte instruction format. There are four categories of instructions: Type-1, Type-2, Type-3 and Type-4. Type-1 category consists of four instructions, each with 3 integer register operands (3Rs). Type-2 category consists of eight instructions, each with 2 floating point register operands (2Fs). Type-3 category consists of fourteen instructions, each with one integer register operand and one floating point register operand (1R+1F). Type-4 category consists of N instructions, each with a floating-point register operand (1F). The maximum value of N is ________. </span><br><b><strong>[GATE 2018|| NAT || 2-mark]</strong></b></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "32",
+          "html": "<p><span>32</span></p>",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        1
+      ],
+      "explanation": "We have 2-byte instruction format. So, total number of instruction encodings =2 ^16\nPS: This is not the number of different instructions but different encodings; a single instruction can have different encodings when the address part differs.\nNo. of bits taken by an integer operand (16 possible integer registers)=4.\nNo. of bits taken by a floating point operand (64 possible floating point registers)=6.\nNo. of encodings consumed by Type 1 instructions =4×2 ^3×4 =2 ^14.\nNo. of encodings consumed by Type 2 instructions =8×2 ^2×6 =2 ^15\nNo. of encodings consumed by Type 3 instructions =14×2 ^(4+6) =14336.\nNo. of encodings left for Type 4=216−(2 ^14 +2 ^15 +14336)=2048.\nNo. of different instructions of Type 4 = 32",
+      "explanation_html": "<p dir=\"ltr\"><span>We have&nbsp;2-byte&nbsp;instruction format. So, total number of instruction encodings&nbsp;=2</span><sup><span>16</span></sup></p><p dir=\"ltr\"><br><span>PS: This is not the number of different instructions but different encodings; a single instruction can have different encodings when the address part differs.</span></p><p dir=\"ltr\"><span>No. of bits taken by an integer operand&nbsp;(16&nbsp;possible integer registers)=4.</span></p><p dir=\"ltr\"><br><span>No. of bits taken by a floating point operand&nbsp;(64&nbsp;possible floating point registers)=6.</span></p><p dir=\"ltr\"><br><span>No. of encodings consumed by Type&nbsp;1&nbsp;instructions&nbsp;=4×2</span><sup><span>3×4</span></sup><span>=2</span><sup><span>14.</span></sup></p><p dir=\"ltr\"><br><span>No. of encodings consumed by Type&nbsp;2&nbsp;instructions&nbsp;=8×2</span><sup><span>2×6</span></sup><span>=2</span><sup><span>15</span></sup></p><p dir=\"ltr\"><span>No. of encodings consumed by Type&nbsp;3&nbsp;instructions&nbsp;=14×2</span><sup><span>(4+6)</span></sup><span>=14336.</span><br><br><span>No. of encodings left for Type&nbsp;4=216−(2</span><sup><span>14</span></sup><span>+2</span><sup><span>15</span></sup><span>+14336)=2048.</span><br><br><span>No. of different instructions of Type&nbsp;4 = 32&nbsp;</span></p>",
+      "created_on": "2025-05-01 - 15:12:53",
+      "updated_on": "2025-10-15 - 14:46:04"
+    },
+    {
+      "qno": 18,
+      "id": 150422,
+      "title": "COA || 2020 NAT || 2-mark || Module 2: Instruction format & Addressing Mode2020 NAT Instruction Set Architecture",
+      "slug": "2020-nat-instruction-set-architecture",
+      "question": "A processor has 64 registers and uses 16-bit instruction format. It has two types of instructions: I-type and R-type. Each I-type instruction contains an opcode, a register name, and a 4-bit immediate value. Each R-type instruction contains an opcode and two register names. If there are 8 distinct I-type opcodes, then the maximum number of distinct Rtype opcodes is ______.\n[GATE 2020 NAT || 2-mark]",
+      "question_html": "<p dir=\"ltr\"><span>A processor has 64 registers and uses 16-bit instruction format. It has two types of instructions: I-type and R-type. Each I-type instruction contains an opcode, a register name, and a 4-bit immediate value. Each R-type instruction contains an opcode and two register names. If there are 8 distinct I-type opcodes, then the maximum number of distinct Rtype opcodes is ______.</span><br><b><strong>[GATE 2020 NAT || 2-mark]</strong></b></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "14",
+          "html": "<p><span>14</span></p>",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        1
+      ],
+      "explanation": ".",
+      "explanation_html": "<figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20250501145937511260/Screenshot-2025-05-01-145917.png\" alt=\"Screenshot-2025-05-01-145917\" width=\"817\" height=\"509\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20250501145937511260/Screenshot-2025-05-01-145917.png 817w,https://media.geeksforgeeks.org/wp-content/uploads/20250501145937511260/Screenshot-2025-05-01-145917-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20250501145937511260/Screenshot-2025-05-01-145917-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20250501145937511260/Screenshot-2025-05-01-145917-300.png 300w,https://media.geeksforgeeks.org/wp-content/uploads/20250501145937511260/Screenshot-2025-05-01-145917-660.png 660w,https://media.geeksforgeeks.org/wp-content/uploads/20250501145937511260/Screenshot-2025-05-01-145917-768.png 768w\" loading=\"auto\"><figcaption>.</figcaption></figure>",
+      "created_on": "2025-05-01 - 15:02:27",
+      "updated_on": "2026-02-19 - 14:39:34"
+    }
+  ]
+}

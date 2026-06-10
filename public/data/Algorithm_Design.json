@@ -1,0 +1,1388 @@
+{
+  "topic": "Algorithm_Design",
+  "slug": "gatedesign-stratgies-greedy-dynamic-pyq2010-to-2025",
+  "total_questions": 38,
+  "questions": [
+    {
+      "qno": 1,
+      "id": 151774,
+      "title": "Algorithm || 2021 MCQ || 2-mark || Module 2: Design Strategies | Greedy algorithm",
+      "slug": "1-146",
+      "question": "ques Which one of the following statements is true?\nGATE CSE 2021,SET1 - [2Marks] (MCQ)",
+      "question_html": "<figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20251015162436854954/Screenshot-2025-10-15-162418.png\" alt=\"Screenshot-2025-10-15-162418\" width=\"1009\" height=\"336\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20251015162436854954/Screenshot-2025-10-15-162418.png 1009w,https://media.geeksforgeeks.org/wp-content/uploads/20251015162436854954/Screenshot-2025-10-15-162418-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20251015162436854954/Screenshot-2025-10-15-162418-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20251015162436854954/Screenshot-2025-10-15-162418-300.png 300w,https://media.geeksforgeeks.org/wp-content/uploads/20251015162436854954/Screenshot-2025-10-15-162418-660.png 660w,https://media.geeksforgeeks.org/wp-content/uploads/20251015162436854954/Screenshot-2025-10-15-162418-768.png 768w\"><figcaption>ques</figcaption></figure><p dir=\"ltr\"><span>Which one of the following statements is true?</span><br><b><strong>GATE CSE 2021,SET1 - [2Marks] (MCQ)</strong></b></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "⌈ diam (G) / 2⌉ < diam (G _2 ) < diam(G)",
+          "html": "<p dir=\"ltr\"><span>⌈ diam (G)  / 2⌉ &lt; diam (G </span><sub><span>2</span></sub><span> ) &lt; diam(G)</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "diam(G _ 2 ) = diam(G)",
+          "html": "<p dir=\"ltr\"><span>diam(G</span><sub><span> 2 </span></sub><span>) = diam(G)</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "diam(G) = diam(G _2 ) <= 2 diam(G)",
+          "html": "<p dir=\"ltr\"><span>diam(G) = diam(G </span><sub><span>2</span></sub><span> ) &lt;= 2 diam(G)</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 4,
+          "text": "diam(G _2 ) <= ⌈ diam (G) / 2 ⌉",
+          "html": "<p dir=\"ltr\"><span>diam(G </span><sub><span>2</span></sub><span> ) &lt;= ⌈ diam (G)  / 2 ⌉</span></p>",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        4
+      ],
+      "explanation": "ans We have the following adj. matrix for this\nans P = M ^2\nBy looking at this we can say that we have Diameter (G 2 )=1. We have Diameter(G)=2. Now by looking at these values we can eliminate options A, B, C and option D is satisfied only.",
+      "explanation_html": "<figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20250509112713362108/Screenshot-2025-05-09-112652.png\" alt=\"Screenshot-2025-05-09-112652\" width=\"209\" height=\"159\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20250509112713362108/Screenshot-2025-05-09-112652.png 209w,https://media.geeksforgeeks.org/wp-content/uploads/20250509112713362108/Screenshot-2025-05-09-112652-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20250509112713362108/Screenshot-2025-05-09-112652-200.png 200w\" loading=\"auto\"><figcaption>ans</figcaption></figure><p dir=\"ltr\"><span>We have the following adj. matrix for this</span></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20250509113224638332/Screenshot-2025-05-09-113204.png\" alt=\"Screenshot-2025-05-09-113204\" width=\"178\" height=\"261\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20250509113224638332/Screenshot-2025-05-09-113204.png 178w,https://media.geeksforgeeks.org/wp-content/uploads/20250509113224638332/Screenshot-2025-05-09-113204-100.png 68w\" loading=\"auto\"><figcaption>ans</figcaption></figure><p dir=\"ltr\"><span>P = M</span><sup><span>2  </span></sup></p><p dir=\"ltr\"><span>By looking at this we can say that we have Diameter (G 2 )=1. We have Diameter(G)=2. Now by looking at these values we can eliminate options A, B, C and option D is satisfied only.</span></p>",
+      "created_on": "2025-05-09 - 11:43:55",
+      "updated_on": "2025-10-15 - 16:28:16"
+    },
+    {
+      "qno": 2,
+      "id": 151549,
+      "title": "Algorithm || 2016 MCQ || 1-mark || Module 2: Design Strategies | Greedy algorithm",
+      "slug": "1-132",
+      "question": "Let G be a weighted connected undirected graph with distinct positive edge weights. If every edge weight is increased by the same value, then which of the following statements is/are TRUE?\nP : Minimum spanning tree of G does not change\nQ : Shortest path between any pair of vertices does not change\nGATE CSE 2016,SET1 - [1Marks] (MCQ)",
+      "question_html": "<p dir=\"ltr\"><span>Let G be a weighted connected undirected graph with distinct positive edge weights. If every edge weight is increased by the same value, then which of the following statements is/are TRUE?</span></p><p dir=\"ltr\"><span>P : Minimum spanning tree of G does not change</span></p><p dir=\"ltr\"><span>Q : Shortest path between any pair of vertices does not change</span><br><b><strong>GATE CSE 2016,SET1 - [1Marks] (MCQ)</strong></b></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "P only",
+          "html": "<p dir=\"ltr\"><span>P only </span></p>",
+          "is_correct": true
+        },
+        {
+          "option_no": 2,
+          "text": "Q only",
+          "html": "<p dir=\"ltr\"><span>Q only</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "Neither P nor Q",
+          "html": "<p dir=\"ltr\"><span>Neither P nor Q</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 4,
+          "text": "Both P and Q",
+          "html": "<p dir=\"ltr\"><span>Both P and Q</span></p>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        1
+      ],
+      "explanation": "The shortest path may change. The reason is, there may be different number of edges in different paths from s to t. For example, let shortest path be of weight 15 and has 5 edges. Let there be another path with 2 edges and total weight 25. The weight of the shortest path is increased by 5*10 and becomes 15 + 50. Weight of the other path is increased by 2*10 and becomes 25 + 20. So the shortest path changes to the other path with weight as 45. The Minimum Spanning Tree doesn’t change. Remember the Kruskal’s algorithm where we sort the edges first. IF we increase all weights, then order of edges won’t change.",
+      "explanation_html": "<p dir=\"ltr\"><span>The shortest path may change. The reason is, there may be different number of edges in different paths from s to t. For example, let shortest path be of weight 15 and has 5 edges. Let there be another path with 2 edges and total weight 25. The weight of the shortest path is increased by 5*10 and becomes 15 + 50. Weight of the other path is increased by 2*10 and becomes 25 + 20. So the shortest path changes to the other path with weight as 45. The Minimum Spanning Tree doesn’t change. Remember the Kruskal’s algorithm where we sort the edges first. IF we increase all weights, then order of edges won’t change.</span></p>",
+      "created_on": "2025-05-05 - 18:38:40",
+      "updated_on": "2025-10-15 - 16:54:39"
+    },
+    {
+      "qno": 3,
+      "id": 151550,
+      "title": "Algorithm || 2017 MCQ || 1-mark || Module 2: Design Strategies | Greedy algorithm",
+      "slug": "1-133",
+      "question": "Consider the following table: GATE CSE 2017,SET1 - [1Marks] (MCQ)\nAlgorithms\nDesign Paradigms\nP\nKruskal\ni\nDivide and Conquer\nQ\nQuicksort\nii\nGreedy\nR\nFloyd-Warshall\niii\nDynamic Programming",
+      "question_html": "<p dir=\"ltr\"><span>Consider the following table:                                                                                                                                                                                                                        </span><b><strong>GATE CSE 2017,SET1 - [1Marks] (MCQ)</strong></b></p><table><thead><tr><th><p dir=\"ltr\"><br></p></th><th><p dir=\"ltr\"><span>Algorithms</span></p></th><th><p dir=\"ltr\"><br></p></th><th><p dir=\"ltr\"><span>Design Paradigms</span></p></th></tr></thead><tbody><tr><th><p dir=\"ltr\"><span>P</span></p></th><td><p dir=\"ltr\"><span>Kruskal</span></p></td><td><p dir=\"ltr\"><span>i</span></p></td><td><p dir=\"ltr\"><span>Divide and Conquer</span></p></td></tr><tr><th><p dir=\"ltr\"><span>Q</span></p></th><td><p dir=\"ltr\"><span>Quicksort</span></p></td><td><p dir=\"ltr\"><span>ii</span></p></td><td><p dir=\"ltr\"><span>Greedy</span></p></td></tr><tr><th><p dir=\"ltr\"><span>R</span></p></th><td><p dir=\"ltr\"><span>Floyd-Warshall</span></p></td><td><p dir=\"ltr\"><span>iii</span></p></td><td><p dir=\"ltr\"><span>Dynamic Programming</span></p></td></tr></tbody></table>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "P-(ii), Q-(iii), R-(i)",
+          "html": "<p dir=\"ltr\"><span>P-(ii), Q-(iii), R-(i)</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "P-(iii), Q-(i), R-(ii)",
+          "html": "<p dir=\"ltr\"><span>P-(iii), Q-(i), R-(ii)</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "P-(ii), Q-(i), R-(iii)",
+          "html": "<p dir=\"ltr\"><span>P-(ii), Q-(i), R-(iii)</span></p>",
+          "is_correct": true
+        },
+        {
+          "option_no": 4,
+          "text": "P-(i), Q-(ii), R-(iii)",
+          "html": "<p dir=\"ltr\"><span>P-(i), Q-(ii), R-(iii)</span></p>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        3
+      ],
+      "explanation": "Some important points regarding Greedy Vs Dynamic Programming\nGreedy: →\nIt always gives polynomial time complexity\n→ It is not an optimal\n→ It always selects only either minimum or maximum among all possibilities\n→ Ex: Dijkstra’s algorithm for SSSP, Optimal Merge Pattern, Huffman coding, Fractional knapsack problem, etc..,\nDynamic Programming:\n→ It gives either polynomial or exponential time complexity.\n→ It gives always an optimal result.\n→ It checks all possibilities of a problem.\n→ Ex: Longest Common sequence, Matrix chain Multiplication, Travelling sales Problem, etc..,",
+      "explanation_html": "<p dir=\"ltr\"><span>Some important points regarding Greedy Vs Dynamic Programming</span><br><span>Greedy: →</span><br><span>It always gives polynomial time complexity</span><br><span>→ It is not an optimal</span><br><span>→ It always selects only either minimum or maximum among all possibilities</span><br><span>→ Ex: Dijkstra’s algorithm for SSSP, Optimal Merge Pattern, Huffman coding, Fractional knapsack problem, etc..,</span><br><span>Dynamic Programming:</span><br><span>→ It gives either polynomial or exponential time complexity.</span><br><span>→ It gives always an optimal result.</span><br><span>→ It checks all possibilities of a problem.</span><br><span>→ Ex: Longest Common sequence, Matrix chain Multiplication, Travelling sales Problem, etc..,</span></p>",
+      "created_on": "2025-05-05 - 18:51:50",
+      "updated_on": "2025-11-20 - 14:41:50"
+    },
+    {
+      "qno": 4,
+      "id": 151551,
+      "title": "Algorithm || 2017 NAT || 2-mark || Module 2: Design Strategies | Greedy algorithm",
+      "slug": "1-134",
+      "question": "A message is made up entirely of characters from the set X = {P,Q,R,S,T} . The table of probabilities of each character is shown below :\nCharacter\nProbability\nP\n0.22\nQ\n0.17\nR\n0.34\nS\n0.19\nT\n0.08\nTotal\n1.00\nA message of 100 characters over X is encoded using Huffman coding. Then the excepted length of the encoded message in bits is _____\nGATE CSE 2017,SET1 - [2Marks] (NAT)",
+      "question_html": "<p dir=\"ltr\"><span>A message is made up entirely of characters from the set X = {P,Q,R,S,T} . The table of probabilities of each character is shown below :</span></p><p dir=\"ltr\"><br></p><table><thead><tr><th><p dir=\"ltr\"><span>Character</span></p></th><th><p dir=\"ltr\"><span>Probability</span></p></th></tr></thead><tbody><tr><th><p dir=\"ltr\"><span>P</span></p></th><td><p><span>0.22</span></p></td></tr><tr><th><p dir=\"ltr\"><span>Q</span></p></th><td><p><span>0.17</span></p></td></tr><tr><th><p dir=\"ltr\"><span>R</span></p></th><td><p><span>0.34</span></p></td></tr><tr><th><p dir=\"ltr\"><span>S</span></p></th><td><p><span>0.19</span></p></td></tr><tr><th><p dir=\"ltr\"><span>T</span></p></th><td><p><span>0.08</span></p></td></tr><tr><th><p dir=\"ltr\"><span>Total</span></p></th><td><p><span>1.00</span></p></td></tr></tbody></table><p dir=\"ltr\"><span>A message of 100 characters over X is encoded using Huffman coding. Then the excepted length of the encoded message in bits is _____</span><br><b><strong>GATE CSE 2017,SET1 - [2Marks] (NAT)</strong></b></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "225",
+          "html": "<p><span>225</span></p>",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        1
+      ],
+      "explanation": "In Huffman coding, we pick the least two frequent (or probable) character, combine them and create a new node.\nans Looking at above tree structure, Number of bits required by each:\nP – 2\nQ – 2\nR – 3\nS – 2\nT – 3\nTherefore, excepted length of the encoded message:\n= 3*0.8 + 3*0.17 +  2*0.19  + 2 *0.22 + 2*0.34\n= 2.25\nFor 100 characters, 2.25*100 = 225",
+      "explanation_html": "<p dir=\"ltr\"><span>In Huffman coding, we pick the least two frequent (or probable) character, combine them and create a new node.</span></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20250505190012699657/Screenshot-2025-05-05-185955.png\" alt=\"Screenshot-2025-05-05-185955\" width=\"334\" height=\"153\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20250505190012699657/Screenshot-2025-05-05-185955.png 334w,https://media.geeksforgeeks.org/wp-content/uploads/20250505190012699657/Screenshot-2025-05-05-185955-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20250505190012699657/Screenshot-2025-05-05-185955-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20250505190012699657/Screenshot-2025-05-05-185955-300.png 300w\" loading=\"auto\"><figcaption>ans</figcaption></figure><p dir=\"ltr\"><span>Looking at above tree structure, Number of bits required by each:</span></p><p dir=\"ltr\"><span>P – 2</span></p><p dir=\"ltr\"><span>Q – 2</span></p><p dir=\"ltr\"><span>R – 3</span></p><p dir=\"ltr\"><span>S – 2</span></p><p dir=\"ltr\"><span>T – 3</span></p><p dir=\"ltr\"><span>Therefore,&nbsp;excepted length of the encoded message:</span></p><p><span>= 3*0.8 + 3*0.17 + &nbsp;2*0.19 &nbsp;+ 2 *0.22 + 2*0.34</span></p><p><span>= 2.25</span></p><p dir=\"ltr\"><span>For 100 characters, 2.25*100 = 225</span></p>",
+      "created_on": "2025-05-05 - 19:02:18",
+      "updated_on": "2025-10-15 - 16:48:13"
+    },
+    {
+      "qno": 5,
+      "id": 151552,
+      "title": "Algorithm || 2018 NAT || 2-mark || Module 2: Design Strategies | Greedy algorithm",
+      "slug": "1-135",
+      "question": "Consider the following undirected graph G:\n. Choose a value of x that will maximize the number of minimum weight spanning trees (MWSTs) of G. The number of MWSTs of G for this value of x is ___________.\nGATE CSE 2018 - [2Marks] (NAT)",
+      "question_html": "<p dir=\"ltr\"><span>Consider the following undirected graph G:</span></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20250506102219541024/Screenshot-2025-05-06-102207.png\" alt=\"Screenshot-2025-05-06-102207\" width=\"361\" height=\"299\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20250506102219541024/Screenshot-2025-05-06-102207.png 361w,https://media.geeksforgeeks.org/wp-content/uploads/20250506102219541024/Screenshot-2025-05-06-102207-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20250506102219541024/Screenshot-2025-05-06-102207-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20250506102219541024/Screenshot-2025-05-06-102207-300.png 300w\" loading=\"auto\"><figcaption>.</figcaption></figure><p dir=\"ltr\"><span>Choose a value of x that will maximize the number of minimum weight spanning trees (MWSTs) of G. The number of MWSTs of G for this value of x is ___________.</span><br><b><strong>GATE CSE 2018 - [2Marks] (NAT)</strong></b></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "4",
+          "html": "<p><span>4</span></p>",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        1
+      ],
+      "explanation": "Edges with weights 1 and 3 will be selected first, Now bottom edge with weight 4 will not be selected as will cause cycle on MST, both corner vertices have two-two choices to select the vertices, so these corner edges with weights 4 and 5 will resultant2*2 = 4 MSTs. So, total number of MSTs are 2*2 = 4, which is answer.",
+      "explanation_html": "<p dir=\"ltr\"><span>Edges with weights 1 and 3 will be selected first, Now bottom edge with weight 4 will not be selected as will cause cycle on MST, both corner vertices have two-two choices to select the vertices, so these corner edges with weights 4 and 5 will resultant2*2 = 4 MSTs. So, total number of MSTs are 2*2 = 4, which is answer.</span></p>",
+      "created_on": "2025-05-06 - 10:24:29",
+      "updated_on": "2025-10-15 - 16:44:08"
+    },
+    {
+      "qno": 6,
+      "id": 151577,
+      "title": "Algorithm || 2018 MCQ || 2-mark || Module 2: Design Strategies | Greedy algorithm",
+      "slug": "1-141",
+      "question": "Let G be any connected, weighted, undirected graph.\nI. G has a unique minimum spanning tree, if no two edges of G have the same weight.\nII. G has a unique minimum spanning tree, if, for every cut of G, there is a unique minimum-weight edge crossing the cut.\nWhich of the above two statements is/are TRUE?\nGATE CSE 2018 - [2Marks] (MCQ)",
+      "question_html": "<p dir=\"ltr\"><span>Let G be any connected, weighted, undirected graph.</span></p><p dir=\"ltr\"><span>I. G has a unique minimum spanning tree, if no two edges of G have the same weight.</span></p><p dir=\"ltr\"><span>II. G has a unique minimum spanning tree, if, for every cut of G, there is a unique minimum-weight edge crossing the cut.</span></p><p dir=\"ltr\"><span>Which of the above two statements is/are TRUE?</span><br><b><strong>GATE CSE 2018 - [2Marks] (MCQ)</strong></b></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "I only",
+          "html": "<p dir=\"ltr\"><span>I only</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "II only",
+          "html": "<p dir=\"ltr\"><span>II only</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "Both I and II",
+          "html": "<p dir=\"ltr\"><span>Both I and II</span></p>",
+          "is_correct": true
+        },
+        {
+          "option_no": 4,
+          "text": "Neither I nor II",
+          "html": "<p dir=\"ltr\"><span>Neither I nor II</span></p>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        3
+      ],
+      "explanation": "If no two edges of G have same weight surely G will have unique spanning tree is true. So I is true Also if, for every cut of G, there is a unique minimum weight edge crossing the cut then G will have unique spanning tree . So II is also true\n[Note: The converse of II is not true, but that is not relevant to this question] So, both I and II are true. Option (C) is correct.",
+      "explanation_html": "<p dir=\"ltr\"><span>If no two edges of G have same weight surely G will have unique spanning tree is true. So I is true Also if, for every cut of G, there is a unique minimum weight edge crossing the cut then G will have unique spanning tree . So II is also true</span></p><p dir=\"ltr\"><span>[Note: The converse of II is not true, but that is not relevant to this question] So, both I and II are true. Option (C) is correct.</span></p>",
+      "created_on": "2025-05-06 - 15:14:54",
+      "updated_on": "2025-11-17 - 14:46:22"
+    },
+    {
+      "qno": 7,
+      "id": 151579,
+      "title": "Algorithm || 2020 MCQ || 2-mark || Module 2: Design Strategies | Greedy algorithm",
+      "slug": "1-142",
+      "question": "Let G = (V, E) be a weighted undirected graph and let T be a Minimum Spanning Tree (MST) of G maintained using adjacency lists. Suppose a new weighted edge (u,v) ∈  V × V is added to G. The worst case time complexity determining if T is still an MST of the resultant graph is\nGATE CSE 2020 - [2Marks] (MCQ)",
+      "question_html": "<p dir=\"ltr\"><span>Let G = (V, E) be a weighted undirected graph and let T be a Minimum Spanning Tree (MST) of G maintained using adjacency lists. Suppose a new weighted edge (u,v) ∈&nbsp;&nbsp;V × V is added to G. The worst case time complexity determining if T is still an MST of the resultant graph is</span><br><b><strong>GATE CSE 2020 - [2Marks] (MCQ)</strong></b></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "θ(|E| log |V|)",
+          "html": "<p dir=\"ltr\"><span>θ(|E| log |V|)</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "θ(|E| + |V|)",
+          "html": "<p dir=\"ltr\"><span>θ(|E| + |V|)</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "θ(|E| |V|)",
+          "html": "<p dir=\"ltr\"><span>θ(|E| |V|)</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 4,
+          "text": "θ (|V|)",
+          "html": "<p dir=\"ltr\"><span>θ (|V|)</span></p>",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        4
+      ],
+      "explanation": "We can accomplish this in O(∣V∣) time as follows:\n- Perform a BFS in T from node u to node v to identify the edge with the highest weight along that path — this takes O(∣V∣) time.\n- If the weight of that edge is larger than the weight of the new edge being considered, replace the old edge with the new one.\n- Otherwise, leave the tree unchanged, since the new edge would not result in a better MST. This step is O(1).\nThe reasoning for this method is that inserting a new edge into T creates exactly one cycle. To maintain the MST property, we must remove the heaviest edge from that cycle.",
+      "explanation_html": "<p dir=\"ltr\" style=\"text-align: start;\"><span>We can accomplish this in&nbsp;O(∣V∣)&nbsp;time as follows:</span></p><ol><li value=\"1\"><span>Perform a BFS in&nbsp;T</span><i><em class=\"GFGEditorTheme__textItalic\"> </em></i><span>from node&nbsp;u&nbsp;to node&nbsp;v&nbsp;to identify the edge with the highest weight along that path — this takes&nbsp;O(∣V∣)&nbsp;time.</span></li><li value=\"2\"><span>If the weight of that edge is larger than the weight of the new edge being considered, replace the old edge with the new one.</span></li><li value=\"3\"><span>Otherwise, leave the tree unchanged, since the new edge would not result in a better MST. This step is&nbsp;O(1).</span></li></ol><p dir=\"ltr\" style=\"text-align: start;\"><span>The reasoning for this method is that inserting a new edge into&nbsp;T&nbsp;creates exactly one cycle. To maintain the MST property, we must remove the heaviest edge from that cycle.</span></p>",
+      "created_on": "2025-05-06 - 15:28:08",
+      "updated_on": "2025-11-20 - 14:36:25"
+    },
+    {
+      "qno": 8,
+      "id": 151580,
+      "title": "Algorithm || 2020 NAT || 2-mark || Module 2: Design Strategies | Greedy algorithm",
+      "slug": "1-143",
+      "question": "Consider a graph G = (V, E), where V = {v _ 1 , v _2 , …, v _100 }, E = {(v _i , v _ j ) | 1 <= i <= j <= 100}, and weight of the edge (v _i , v _j ) is |i – j|. The weight of the minimum spanning tree of G is _____.\nGATE CSE 2020 - [2Marks] (NAT)",
+      "question_html": "<p dir=\"ltr\"><span>Consider a graph G = (V, E), where V = {v</span><sub><span> 1 </span></sub><span>, v </span><sub><span>2</span></sub><span> , …, v </span><sub><span>100</span></sub><span> }, E = {(v </span><sub><span>i </span></sub><span>, v</span><sub><span> j </span></sub><span>) | 1 &lt;= i &lt;= j &lt;= 100}, and weight of the edge (v </span><sub><span>i</span></sub><span> , v </span><sub><span>j</span></sub><span> ) is |i – j|. The weight of the minimum spanning tree of G is _____.</span><br><b><strong>GATE CSE 2020 - [2Marks] (NAT)</strong></b></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "99",
+          "html": "<p><span>99</span></p>",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        1
+      ],
+      "explanation": "If we consider a small graph with 5 vertices, then the minimum spanning tree will have a weight 4.\nfor 6 vertices weight will be 5 and so on.\nSo, for n-vertices, MST weight would be (n–1) As n = 100 (no. of vertices), So, minimum spanning tree weight = (100–1) = 99",
+      "explanation_html": "<p dir=\"ltr\"><span>If we consider a small graph with 5 vertices, then the minimum spanning tree will have a weight 4.</span></p><p dir=\"ltr\"><span>for 6 vertices weight will be 5 and so on.</span></p><p dir=\"ltr\"><span> So, for n-vertices, MST weight would be (n–1) As n = 100 (no. of vertices), So, minimum spanning tree weight = (100–1) = 99</span></p>",
+      "created_on": "2025-05-06 - 15:33:14",
+      "updated_on": "2025-11-17 - 14:41:53"
+    },
+    {
+      "qno": 9,
+      "id": 151599,
+      "title": "Algorithm || 2021 MSQ || 2-mark || Module 2: Design Strategies | Greedy algorithm",
+      "slug": "1-144",
+      "question": "Define Rn to be the maximum amount earned by cutting a rod of length n meters into one or more pieces of integer length and selling them. For i > 0, let p[i] denote the selling prices of a rod whose length is i meters. Consider the array of prices :\np[1] = 1, p[2] = 5, p[3] = 8, p[4] = 9, p[5] = 10, p[6] = 17, p[7] = 18\nWhich of the following statements is/are correct about R 7 ?\nGATE CSE 2021,SET1 - [2Marks] (MSQ)",
+      "question_html": "<p dir=\"ltr\"><span>Define Rn to be the maximum amount earned by cutting a rod of length n meters into one or more pieces of integer length and selling them. For i &gt; 0, let p[i] denote the selling prices of a rod whose length is i meters. Consider the array of prices :</span></p><p dir=\"ltr\"><span>p[1] = 1, p[2] = 5, p[3] = 8, p[4] = 9, p[5] = 10, p[6] = 17, p[7] = 18</span></p><p dir=\"ltr\"><span>Which of the following statements is/are correct about R 7 ?</span><br><b><strong>GATE CSE 2021,SET1 - [2Marks] (MSQ)</strong></b></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "R _7 cannot be achieved by a solution consisting of three pieces.",
+          "html": "<p dir=\"ltr\"><span>R</span><sub><span>7</span></sub><span> cannot be achieved by a solution consisting of three pieces.</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "R _7 = 19",
+          "html": "<p dir=\"ltr\"><span>R</span><sub><span>7</span></sub><span> = 19</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "R _7 = 18",
+          "html": "<p dir=\"ltr\"><span>R</span><sub><span>7</span></sub><span> = 18</span></p>",
+          "is_correct": true
+        },
+        {
+          "option_no": 4,
+          "text": "R _7 is achieved by three different solutions.",
+          "html": "<p dir=\"ltr\"><span>R</span><sub><span>7</span></sub><span> is achieved by three different solutions.</span></p>",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        3,
+        4
+      ],
+      "explanation": "Check splits for n = 7: max of p, p+p, p+p, p+p, and multi-piece combos. p = 18; p+p = 1+17 = 18; p+p = 5+10 = 15; p+p = 8+9 = 17. Three-piece 2+2+3 gives 5+5+8 = 18, so there are three optimal ways: 7; 1+6; 2+2+3. Hence R7 = 18 and multiple optimal solutions exist.\n⇨R7 = 18, and it can be achieved in three ways;",
+      "explanation_html": "<p dir=\"ltr\"><span>Check splits for n = 7: max of p, p+p, p+p, p+p, and multi-piece combos. p = 18; p+p = 1+17 = 18; p+p = 5+10 = 15; p+p = 8+9 = 17. Three-piece 2+2+3 gives 5+5+8 = 18, so there are three optimal ways: 7; 1+6; 2+2+3. Hence R7 = 18 and multiple optimal solutions exist.</span><br><span>⇨R7 = 18, and it can be achieved in three ways;</span></p>",
+      "created_on": "2025-05-06 - 16:10:47",
+      "updated_on": "2025-10-15 - 16:39:05"
+    },
+    {
+      "qno": 10,
+      "id": 151613,
+      "title": "Algorithm || 2021 NAT || 1-mark || Module 2: Design Strategies | Greedy algorithm",
+      "slug": "1-145",
+      "question": "Consider the following undirected graph with edge weights as shown:\n. The number of minimum-spanning trees of the graph is __________.\nGATE CSE 2021,SET1 - [1Marks] (NAT)",
+      "question_html": "<p dir=\"ltr\"><span>Consider the following undirected graph with edge weights as shown:</span></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20250506163434408033/Screenshot-2025-05-06-163408.png\" alt=\"Screenshot-2025-05-06-163408\" width=\"501\" height=\"279\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20250506163434408033/Screenshot-2025-05-06-163408.png 501w,https://media.geeksforgeeks.org/wp-content/uploads/20250506163434408033/Screenshot-2025-05-06-163408-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20250506163434408033/Screenshot-2025-05-06-163408-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20250506163434408033/Screenshot-2025-05-06-163408-300.png 300w\" loading=\"auto\"><figcaption>.</figcaption></figure><p dir=\"ltr\"><span>The number of minimum-spanning trees of the graph is __________.</span><br><b><strong>GATE CSE 2021,SET1 - [1Marks] (NAT)</strong></b></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "3",
+          "html": "<p><span>3</span></p>",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        1
+      ],
+      "explanation": "Answer: 3\nans",
+      "explanation_html": "<p dir=\"ltr\"><b><strong>Answer: 3</strong></b></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20250506164140679165/Screenshot-2025-05-06-164016.png\" alt=\"Screenshot-2025-05-06-164016\" width=\"617\" height=\"229\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20250506164140679165/Screenshot-2025-05-06-164016.png 617w,https://media.geeksforgeeks.org/wp-content/uploads/20250506164140679165/Screenshot-2025-05-06-164016-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20250506164140679165/Screenshot-2025-05-06-164016-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20250506164140679165/Screenshot-2025-05-06-164016-300.png 300w\" loading=\"auto\"><figcaption>ans</figcaption></figure><p dir=\"ltr\"><br></p>",
+      "created_on": "2025-05-06 - 16:42:17",
+      "updated_on": "2025-10-15 - 16:34:23"
+    },
+    {
+      "qno": 11,
+      "id": 151545,
+      "title": "Algorithm || 2016 MCQ || 2-mark || Module 2: Design Strategies | Greedy algorithm",
+      "slug": "2-51",
+      "question": "Let G be a complete undirected graph on 4 vertices, having 6 edges with weights being 1, 2, 3, 4, 5, and 6. The maximum possible weight that a minimum weight spanning tree of G can have is___________.\nGATE CSE 2016,SET1 - [2Marks] (MCQ)",
+      "question_html": "<p dir=\"ltr\"><span>Let G be a complete undirected graph on 4 vertices, having 6 edges with weights being 1, 2, 3, 4, 5, and 6. The maximum possible weight that a minimum weight spanning tree of G can have is___________.</span><br><b><strong>GATE CSE 2016,SET1 - [2Marks] (MCQ)</strong></b></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "4",
+          "html": "<p><span>4</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "5",
+          "html": "<p><span>5</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "6",
+          "html": "<p><span>6</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 4,
+          "text": "7",
+          "html": "<p><span>7</span></p>",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        4
+      ],
+      "explanation": "One graph that has maximum possible weight of spanning tree\nans\nAn MST on 4 vertices has 3 edges, and by Kruskal’s order the two smallest edges 1 and 2 can always be included without forming a cycle.​\n- To maximize the MST weight, arrange the graph so that edge 3 would create a cycle with 1 and 2 and hence is skipped; the next feasible edge is 4, giving total 1 + 2 + 4 = 7.​​\n- This is the maximum possible MST weight under the given multiset of edge weights.​​",
+      "explanation_html": "<p dir=\"ltr\"><span>One graph that has maximum possible weight of spanning tree</span></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20250505182825667704/Screenshot-2025-05-05-182810.png\" alt=\"Screenshot-2025-05-05-182810\" width=\"352\" height=\"211\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20250505182825667704/Screenshot-2025-05-05-182810.png 352w,https://media.geeksforgeeks.org/wp-content/uploads/20250505182825667704/Screenshot-2025-05-05-182810-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20250505182825667704/Screenshot-2025-05-05-182810-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20250505182825667704/Screenshot-2025-05-05-182810-300.png 300w\" loading=\"auto\"><figcaption>ans</figcaption></figure><p dir=\"ltr\"><br><span>An MST on 4 vertices has 3 edges, and by Kruskal’s order the two smallest edges 1 and 2 can always be included without forming a cycle.​</span></p><ul class=\"marker:text-quiet list-disc\"><li value=\"1\"><span>To maximize the MST weight, arrange the graph so that edge 3 would create a cycle with 1 and 2 and hence is skipped; the next feasible edge is 4, giving total 1 + 2 + 4 = 7.​​</span></li><li value=\"2\"><span>This is the maximum possible MST weight under the given multiset of edge weights.​​</span></li></ul>",
+      "created_on": "2025-05-05 - 18:29:19",
+      "updated_on": "2025-10-15 - 17:02:10"
+    },
+    {
+      "qno": 12,
+      "id": 151782,
+      "title": "Algorithm || 2021 MCQ || 2-mark || Module 2: Design Strategies | Greedy algorithm",
+      "slug": "2-52",
+      "question": "Let G be a connected undirected weighted graph. Consider the following two statements.\nS 1 : There exists a minimum weight edge in G which is present in every minimum spanning tree of G.\nS 2 : If every edge in G has distinct weight, then G has a unique minimum spanning tree.\nWhich one of the following options is correct?\nGATE CSE 2021,SET2 - [2Marks] (MCQ)",
+      "question_html": "<p dir=\"ltr\"><span>Let G be a connected undirected weighted graph. Consider the following two statements. </span></p><p dir=\"ltr\"><span>S 1 : There exists a minimum weight edge in G which is present in every minimum spanning tree of G.</span></p><p dir=\"ltr\"><span>S 2 : If every edge in G has distinct weight, then G has a unique minimum spanning tree.</span></p><p dir=\"ltr\"><span>Which one of the following options is correct?</span><br><b><strong>GATE CSE 2021,SET2 - [2Marks] (MCQ)</strong></b></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "S 1 is true and S 2 is false.",
+          "html": "<p dir=\"ltr\"><span>S 1 is true and S 2 is false.</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "S 1 is false and S 2 is true.",
+          "html": "<p dir=\"ltr\"><span>S 1 is false and S 2 is true.</span></p>",
+          "is_correct": true
+        },
+        {
+          "option_no": 3,
+          "text": "Both S 1 and S 2 are true.",
+          "html": "<p dir=\"ltr\"><span>Both S 1 and S 2 are true.</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 4,
+          "text": "Both S 1 and S 2 are false.",
+          "html": "<p dir=\"ltr\"><span>Both S 1 and S 2 are false.</span></p>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        2
+      ],
+      "explanation": "S1 : consider the graph.\nans But the minimum weight edge BC in G is not present. So, the S 1 is a false statement.\nS 2 : In any undirected graph G, distinct edge weights means Unique MST.\nSo, the S 1 is false and S 2 is true.",
+      "explanation_html": "<p dir=\"ltr\"><span>S1 : consider the graph.</span></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20250509120520009681/Screenshot-2025-05-09-120133.png\" alt=\"Screenshot-2025-05-09-120133\" width=\"383\" height=\"457\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20250509120520009681/Screenshot-2025-05-09-120133.png 383w,https://media.geeksforgeeks.org/wp-content/uploads/20250509120520009681/Screenshot-2025-05-09-120133-100.png 84w,https://media.geeksforgeeks.org/wp-content/uploads/20250509120520009681/Screenshot-2025-05-09-120133-200.png 168w,https://media.geeksforgeeks.org/wp-content/uploads/20250509120520009681/Screenshot-2025-05-09-120133-300.png 251w\" loading=\"auto\"><figcaption>ans</figcaption></figure><p dir=\"ltr\"><span>But the minimum weight edge BC in G is not present. So, the S 1 is a false statement. </span></p><p dir=\"ltr\"><span>S 2 : In any undirected graph G, distinct edge weights means Unique MST. </span></p><p dir=\"ltr\"><span>So, the S 1 is false and S 2 is true.</span></p>",
+      "created_on": "2025-05-09 - 12:08:29",
+      "updated_on": "2025-11-15 - 15:04:27"
+    },
+    {
+      "qno": 13,
+      "id": 151855,
+      "title": "Algorithm || 2016 MCQ || 1-mark || Module 3: Design Strategies | Dynamic Programming",
+      "slug": "1-148",
+      "question": "The Floyd-Warshall algorithm for all-pair shortest paths computation is based on\nGATE CSE 2016,SET2 - [1Marks] (MCQ)",
+      "question_html": "<p dir=\"ltr\"><span>The Floyd-Warshall algorithm for all-pair shortest paths computation is based on</span><br><b><strong>GATE CSE 2016,SET2 - [1Marks] (MCQ)</strong></b></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "Greedy paradigm",
+          "html": "<p dir=\"ltr\"><span>Greedy paradigm</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "Divide-and-Conquer paradigm.",
+          "html": "<p dir=\"ltr\"><span>Divide-and-Conquer paradigm.</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "Dynamic Programming paradigm.",
+          "html": "<p dir=\"ltr\"><span>Dynamic Programming paradigm.</span></p>",
+          "is_correct": true
+        },
+        {
+          "option_no": 4,
+          "text": "Neither Greedy nor Divide-and-Conquer nor Dynamic Programming paradigm",
+          "html": "<p dir=\"ltr\"><span>Neither Greedy nor Divide-and-Conquer nor Dynamic Programming paradigm</span></p>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        3
+      ],
+      "explanation": "The Floyd–Warshall algorithm systematically updates the shortest paths between all pairs of vertices by considering each vertex as an intermediate point, building optimal solutions from previously computed subproblems, which is the essence of dynamic programming.​​",
+      "explanation_html": "<p dir=\"ltr\"><span>The Floyd–Warshall algorithm systematically updates the shortest paths between all pairs of vertices by considering each vertex as an intermediate point, building optimal solutions from previously computed subproblems, which is the essence of dynamic programming.​​</span></p>",
+      "created_on": "2025-05-10 - 11:20:39",
+      "updated_on": "2025-10-15 - 12:52:29"
+    },
+    {
+      "qno": 14,
+      "id": 151857,
+      "title": "Algorithm || 2016 NAT || 2-mark || Module 3: Design Strategies | Dynamic Programming",
+      "slug": "1-149",
+      "question": "Consider the weighted undirected graph with 4 vertices, where the weight of edge {i, j} is given by the entry W ij  in the matrix W.\n. The largest possible integer value of x, for which at least one shortest path between some pair of vertices will contain the edge with weight x is______.\nGATE CSE 2016,SET1 - [2Marks] (NAT)",
+      "question_html": "<p dir=\"ltr\"><span>Consider the weighted undirected graph with 4 vertices, where the weight of edge {i, j} is given by the entry W ij &nbsp;in the matrix W.</span></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20250510112846707971/Screenshot-2025-05-10-112831.png\" alt=\"Screenshot-2025-05-10-112831\" width=\"296\" height=\"210\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20250510112846707971/Screenshot-2025-05-10-112831.png 296w,https://media.geeksforgeeks.org/wp-content/uploads/20250510112846707971/Screenshot-2025-05-10-112831-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20250510112846707971/Screenshot-2025-05-10-112831-200.png 200w\" loading=\"auto\"><figcaption>.</figcaption></figure><p dir=\"ltr\"><span>The largest possible integer value of x, for which at least one shortest path between some pair of vertices will contain the edge with weight x is______.</span><br><b><strong>GATE CSE 2016,SET1 - [2Marks] (NAT)</strong></b></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "12",
+          "html": "<p><span>12</span></p>",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        1
+      ],
+      "explanation": "ans If x = 12 then the shortest path between d & c will contain edge with label ‘x’.",
+      "explanation_html": "<figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20250510113505562154/Screenshot-2025-05-10-113429.png\" alt=\"Screenshot-2025-05-10-113429\" width=\"282\" height=\"215\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20250510113505562154/Screenshot-2025-05-10-113429.png 282w,https://media.geeksforgeeks.org/wp-content/uploads/20250510113505562154/Screenshot-2025-05-10-113429-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20250510113505562154/Screenshot-2025-05-10-113429-200.png 200w\" loading=\"auto\"><figcaption>ans</figcaption></figure><p dir=\"ltr\"><span>If x = 12 then the shortest path between d &amp; c will contain edge with label ‘x’.</span></p>",
+      "created_on": "2025-05-10 - 11:39:19",
+      "updated_on": "2025-10-15 - 12:46:25"
+    },
+    {
+      "qno": 15,
+      "id": 151876,
+      "title": "Algorithm || 2016 NAT || 2-mark || Module 3: Design Strategies | Dynamic Programming",
+      "slug": "2-53",
+      "question": "Let A 1 , A 2 , A 3 , and A 4 be four matrices of dimensions 10 × 5, 5 × 20, 20 × 10, and 10 × 5, respectively. The minimum number of scalar multiplications required to find the product A 1 A 2 A 3 A 4  using the basic matrix multiplication method is ____.\nGATE CSE 2016,SET2 - [2Marks] (NAT)",
+      "question_html": "<p dir=\"ltr\"><span>Let A 1 , A 2 , A 3 , and A 4 be four matrices of dimensions 10 × 5, 5 × 20, 20 × 10,&nbsp;and 10 × 5, respectively. The minimum number of scalar multiplications required to find the product A 1 A 2 A 3 A 4 &nbsp;using the basic matrix multiplication method is ____.</span><br><b><strong>GATE CSE 2016,SET2 - [2Marks] (NAT)</strong></b></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "1500",
+          "html": "<p><span>1500</span></p>",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        1
+      ],
+      "explanation": "The answer is 1500.\nMatrix Parenthesizing (A _1 (A _2 A _3 )A _4 ) :\nCheck my solution below, using dynamic programming\nA1\nA2\nA3\nA4\n10 * 5\n5 * 20\n20 * 10\n10 * 5\n.",
+      "explanation_html": "<p dir=\"ltr\" style=\"text-align: left;\"><span>The answer is&nbsp;1500.</span></p><p dir=\"ltr\" style=\"text-align: left;\"><span>Matrix Parenthesizing (A</span><sub><span>1</span></sub><span> (A</span><sub><span>2</span></sub><span>A</span><sub><span>3</span></sub><span>)A</span><sub><span>4</span></sub><span>) :&nbsp;&nbsp;</span></p><p dir=\"ltr\" style=\"text-align: left;\"><span>Check my solution below, using dynamic programming</span></p><table><thead><tr><th><p dir=\"ltr\"><span>A1</span></p></th><th><p dir=\"ltr\"><span>A2</span></p></th><th><p dir=\"ltr\"><span>A3</span></p></th><th><p dir=\"ltr\"><span>A4</span></p></th></tr></thead><tbody><tr><th><p><span>10 * 5</span></p></th><td><p><span>5 * 20</span></p></td><td><p><span>20 * 10</span></p></td><td><p><span>10 * 5</span></p></td></tr></tbody></table><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20251120125149188628/Screenshot-2025-11-20-125122.png\" alt=\"Screenshot-2025-11-20-125122\" width=\"811\" height=\"253\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20251120125149188628/Screenshot-2025-11-20-125122.png 811w,https://media.geeksforgeeks.org/wp-content/uploads/20251120125149188628/Screenshot-2025-11-20-125122-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20251120125149188628/Screenshot-2025-11-20-125122-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20251120125149188628/Screenshot-2025-11-20-125122-300.png 300w,https://media.geeksforgeeks.org/wp-content/uploads/20251120125149188628/Screenshot-2025-11-20-125122-660.png 660w,https://media.geeksforgeeks.org/wp-content/uploads/20251120125149188628/Screenshot-2025-11-20-125122-768.png 768w\"><figcaption>.</figcaption></figure>",
+      "created_on": "2025-05-10 - 12:46:16",
+      "updated_on": "2025-11-20 - 12:52:06"
+    },
+    {
+      "qno": 16,
+      "id": 151916,
+      "title": "Algorithm || 2018 MCQ || 2-mark || Module 3: Design Strategies | Dynamic Programming",
+      "slug": "1-150",
+      "question": "Assume that multiplying a matrix G 1 of dimension p×q with another matrix G 2 of dimension q × r requires scalar multiplications. Computing the product of  matrices\nG1 G2 G3 ……Gn can be done by parenthesizing in different ways. Define Gi Gi+1 as an explicitly computed pair for a given parenthesization if they are directly\nmultiplied. For example, in the matrix multiplication chain G1 G2 G3 G4 G5 G6 using parenthesization (G1 (G2 G3 )) (G4 (G5 G6 )).G2 G3 and G5 G6  are the only explicitly computed pairs. Consider a matrix multiplication chain F1 F2 F3 F4 F5 , where matrices F1 F2 F3 F4 F5  are of dimensions 2 × 25, 25 × 3, 3 × 16, 16 × 1 and 1 × 1000, respectively. In the parenthesization of F1 F2 F3 F4 F5  that minimizes the total number of scalar multiplications, the explicitly computed pairs is/are:\nGATE CSE 2018 - [2Marks] (MCQ)",
+      "question_html": "<p dir=\"ltr\"><span>Assume that multiplying a matrix G 1 of dimension p×q with another matrix G 2 of dimension q × r requires scalar multiplications. Computing the product of&nbsp;&nbsp;matrices </span></p><p dir=\"ltr\"><span>G1 G2 G3 ……Gn can be done by parenthesizing in different ways. Define Gi Gi+1 as an explicitly computed pair for a given parenthesization if they are directly</span></p><p dir=\"ltr\"><span>multiplied. For example, in the matrix multiplication chain G1 G2 G3 G4 G5 G6 using parenthesization (G1 (G2 G3 )) (G4 (G5 G6 )).G2 G3 and&nbsp;G5 G6 &nbsp;are the only explicitly computed pairs. Consider a matrix multiplication chain F1 F2 F3 F4 F5 , where matrices F1 F2 F3 F4 F5  &nbsp;are of dimensions 2 × 25, 25 × 3, 3 × 16, 16 × 1 and 1 × 1000, respectively. In the parenthesization of F1 F2 F3 F4 F5  &nbsp;that minimizes the total number of scalar multiplications, the explicitly computed pairs is/are:</span><br><b><strong>GATE CSE 2018 - [2Marks] (MCQ)</strong></b></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "F1 F2 and F3 F4",
+          "html": "<p dir=\"ltr\"><span>F1 F2 and F3 F4</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "F2 F3 on;y",
+          "html": "<p dir=\"ltr\"><span>F2 F3 on;y</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "F3 F4 only",
+          "html": "<p dir=\"ltr\"><span>F3 F4 only</span></p>",
+          "is_correct": true
+        },
+        {
+          "option_no": 4,
+          "text": "F1 F2 and F4",
+          "html": "<p dir=\"ltr\"><span>F1 F2 and F4</span></p>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        3
+      ],
+      "explanation": "No. of ways of multiplying the chain of matrices  Where m = no. of multiplications (not matrices)\n^6 C _3 / 3+1\nans Total number of scalar multiplications are 48 + 75 + 50 + 2000 = 2173 and optimal parenthesis is ((F1(F2(F3 F4))) F5). As\nconcluded, F3, F4 are explicitly computed pairs.",
+      "explanation_html": "<p dir=\"ltr\"><span>No. of ways of multiplying the chain of matrices &nbsp;Where m = no. of multiplications (not matrices)</span></p><p dir=\"ltr\"><sup><span>6</span></sup><span>C</span><sub><span>3</span></sub><span> / 3+1</span></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20250510145351016858/Screenshot-2025-05-10-145338.png\" alt=\"Screenshot-2025-05-10-145338\" width=\"406\" height=\"379\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20250510145351016858/Screenshot-2025-05-10-145338.png 406w,https://media.geeksforgeeks.org/wp-content/uploads/20250510145351016858/Screenshot-2025-05-10-145338-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20250510145351016858/Screenshot-2025-05-10-145338-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20250510145351016858/Screenshot-2025-05-10-145338-300.png 300w\" loading=\"auto\"><figcaption>ans</figcaption></figure><p dir=\"ltr\"><span>Total number of scalar multiplications are 48 + 75 + 50 + 2000 = 2173 and optimal parenthesis is ((F1(F2(F3 F4))) F5). As</span></p><p dir=\"ltr\"><span>concluded, F3, F4 are explicitly computed pairs.</span></p>",
+      "created_on": "2025-05-10 - 15:03:51",
+      "updated_on": "2025-11-15 - 12:17:35"
+    },
+    {
+      "qno": 17,
+      "id": 152343,
+      "title": "Algorithm || 2022 MSQ || 2-mark || Module 2: Design Strategies | Greedy algorithm",
+      "slug": "1-164",
+      "question": "Consider a simple undirected weighted graph G, all of whose edge weights are distinct.\nWhich of the following statements about the minimum spanning trees of G is/are TRUE?\nGATE CSE 2022 - [2Marks] (MSQ)",
+      "question_html": "<p dir=\"ltr\"><span>Consider a simple undirected weighted graph G, all of whose edge weights are distinct. </span></p><p dir=\"ltr\"><span>Which of the following statements about the minimum spanning trees of G is/are TRUE?</span><br><b><strong>GATE CSE 2022 - [2Marks] (MSQ)</strong></b></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "The edge with the second smallest weight is always part of any minimum spanning tree of G.",
+          "html": "<p dir=\"ltr\"><span>The edge with the second smallest weight is always part of any minimum spanning tree of G. </span></p>",
+          "is_correct": true
+        },
+        {
+          "option_no": 2,
+          "text": "One or both of the edges with the third smallest and the fourth smallest weights are part of any minimum spanning tree of G",
+          "html": "<p dir=\"ltr\"><span>One or both of the edges with the third smallest and the fourth smallest weights are part of any minimum spanning tree of G</span></p>",
+          "is_correct": true
+        },
+        {
+          "option_no": 3,
+          "text": "Suppose S⊆V be such that S != ϕ and S != V. Consider the edge with the minimum weight such that one of its vertices is in S and the other in V∖S. Such an edge will always be part of any minimum spanning tree of G",
+          "html": "<p dir=\"ltr\"><span>Suppose S⊆V be such that S != ϕ and S != V. Consider the edge with the minimum weight such that one of its vertices is in S and the other in V∖S. Such an edge will always be part of any minimum spanning tree of G</span></p>",
+          "is_correct": true
+        },
+        {
+          "option_no": 4,
+          "text": "G can have multiple minimum spanning trees.",
+          "html": "<p dir=\"ltr\"><span>G can have multiple minimum spanning trees.</span></p>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "Why A is true\nThe edge with the smallest weight is always included, and the second smallest edge will also be included unless it creates a cycle. For a simple connected graph, it cannot form a cycle at the stage where only the first edge is present, so the second smallest edge is always added.\nWhy B is true\nBy the cut property: for any cut, the unique lightest edge crossing that cut must be in every MST; edges ranked third or fourth globally need not be in any MST unless they are the lightest for some cut, so “one or both” being in every MST is not guaranteed and thus the statement as written is false if it claims necessity for those ranks; however, interpreted as “may be part” it’s trivial—so the strict cut-property guarantee applies only to the single lightest edge per cut. Hence option 2, which claims necessity for specific ranks, is false.\nWhy C is true\nFor any nonempty proper subset S of V, the minimum-weight edge with one endpoint in S and the other in V \\ S must be in every MST by the cut property, since edge weights are distinct and thus the lightest crossing edge is unique.​\nWhy D is false\nWith all edge weights distinct, the MST is unique; therefore the graph cannot have multiple minimum spanning trees under the given condition.",
+      "explanation_html": "<p dir=\"ltr\"><b><strong>Why A is true</strong></b></p><p dir=\"ltr\"><span>The edge with the smallest weight is always included, and the second smallest edge will also be included unless it creates a cycle. For a simple connected graph, it cannot form a cycle at the stage where only the first edge is present, so the second smallest edge is always added.</span></p><p dir=\"ltr\"><b><strong>Why B is true</strong></b></p><p dir=\"ltr\" style=\"text-align: start;\"><span>By the cut property: for any cut, the unique lightest edge crossing that cut must be in every MST; edges ranked third or fourth globally need not be in any MST unless they are the lightest for some cut, so “one or both” being in every MST is not guaranteed and thus the statement as written is false if it claims necessity for those ranks; however, interpreted as “may be part” it’s trivial—so the strict cut-property guarantee applies only to the single lightest edge per cut. Hence option 2, which claims necessity for specific ranks, is false.</span></p><p dir=\"ltr\"><b><strong>Why C is true</strong></b></p><p dir=\"ltr\" style=\"text-align: start;\"><span>For any nonempty proper subset S of V, the minimum-weight edge with one endpoint in S and the other in V \\ S must be in every MST by the cut property, since edge weights are distinct and thus the lightest crossing edge is unique.​</span></p><p dir=\"ltr\"><b><strong>Why D is false</strong></b></p><p dir=\"ltr\" style=\"text-align: start;\"><span>With all edge weights distinct, the MST is unique; therefore the graph cannot have multiple minimum spanning trees under the given condition.</span></p>",
+      "created_on": "2025-05-16 - 00:22:48",
+      "updated_on": "2025-11-14 - 12:20:11"
+    },
+    {
+      "qno": 18,
+      "id": 152352,
+      "title": "Algorithm || 2025 MCQ || 2-mark || Module 2: Design Strategies | Greedy algorithm",
+      "slug": "1-173",
+      "question": "​​​​Let G be an edge-weighted undirected graph with positive edge weights. Suppose a positive constant α is added to the weight of every edge.\nWhich ONE of the following statements is TRUE about the minimum spanning trees (MSTs) and shortest paths (SPs) in G before and after the edge weight update?\nGATE CSE 2025,SET2 - [2Marks] (MCQ)",
+      "question_html": "<p dir=\"ltr\"><span>​​​​Let&nbsp;G&nbsp;be an edge-weighted undirected graph with positive edge weights. Suppose a positive constant&nbsp;α&nbsp;is added to the weight of every edge.</span><br><br><span>Which ONE of the following statements is TRUE about the minimum spanning trees (MSTs) and shortest paths (SPs) in&nbsp;G&nbsp;before and after the edge weight update?</span><br><b><strong>GATE CSE 2025,SET2 - [2Marks] (MCQ)</strong></b></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "Every MST remains an MST, and every SP remains an SP.",
+          "html": "<p dir=\"ltr\"><span>Every MST remains an MST, and every SP remains an SP.</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "MSTs need not remain MSTs, and every SP remains an SP",
+          "html": "<p dir=\"ltr\"><span>MSTs need not remain MSTs, and every SP remains an SP</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "Every MST remains an MST, and SPs need not remain SPs",
+          "html": "<p dir=\"ltr\"><span>Every MST remains an MST, and SPs need not remain SPs</span></p>",
+          "is_correct": true
+        },
+        {
+          "option_no": 4,
+          "text": "MSTs need not remain MSTs, and SPs need not remain SPs",
+          "html": "<p dir=\"ltr\"><span>MSTs need not remain MSTs, and SPs need not remain SPs</span></p>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        3
+      ],
+      "explanation": "Every MST will remain an MST because if we use Kruskal's Algorithm, adding alpha to each edge weight will not change the ordering of the edges, and the tree will be formed as it is. for shortest paths, consider an undirected graph of 4  vertices v1, v2, v3, v4. The edge set of this graph is defined as {[v1,v2], [v2,v3], [v3,v4] and [v1,v4]}.\nLet edge weight of [v1,v2], [v2,v3], [v3,v4] and [v1,v4] be x1, x2, x3 and x4 respectively with the condition: x1+x2+x3 = x4 - 1. Thus originally the shortest path between v1 and v4 is x1+x2+x3. However after adding positive constant to each edge, the shortest path between v1 and v4 is x4 + alpha.",
+      "explanation_html": "<p dir=\"ltr\"><span>Every MST will remain an MST because if we use Kruskal's Algorithm, adding alpha to each edge weight will not change the ordering of the edges, and the tree will be formed as it is. for shortest paths, consider an undirected graph of 4 &nbsp;vertices v1, v2, v3, v4. The edge set of this graph is defined as {[v1,v2], [v2,v3], [v3,v4] and [v1,v4]}. </span></p><p dir=\"ltr\"><span>Let edge weight of [v1,v2], [v2,v3], [v3,v4] and [v1,v4] be x1, x2, x3 and x4 respectively with the condition: x1+x2+x3 = x4 - 1. Thus originally the shortest path between v1 and v4 is x1+x2+x3. However after adding positive constant to each edge, the shortest path between v1 and v4 is x4 + alpha.</span></p>",
+      "created_on": "2025-05-16 - 01:41:05",
+      "updated_on": "2025-10-15 - 16:11:48"
+    },
+    {
+      "qno": 19,
+      "id": 152354,
+      "title": "Algorithm || 2025 MCQ || 1-mark || Module 2: Design Strategies | Greedy algorithm",
+      "slug": "1-175",
+      "question": "Let G be any undirected graph with positive edge weights, and T be a minimum spanning tree of G. For any two vertices, u and v, let d1(u,v) and d2(u,v) be the shortest distances between u and v in G and T, respectively. Which ONE of the options is CORRECT for all possible G, T, u and v?\nGATE CSE 2025,SET1 - [1Marks] (MCQ)",
+      "question_html": "<p dir=\"ltr\"><span>Let G be any undirected graph with positive edge weights, and T be a minimum spanning tree of G. For any two vertices, u and v, let d1(u,v) and d2(u,v) be the shortest distances between u and v in G and T, respectively. Which ONE of the options is CORRECT for all possible G, T, u and v?</span><br><b><strong>GATE CSE 2025,SET1 - [1Marks] (MCQ)</strong></b></p><p dir=\"ltr\"><br></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "d1​(u, v) = d2​(u, v)",
+          "html": "<p dir=\"ltr\"><span>d1​(u, v) = d2​(u, v)</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "d1​(u, v) ≤ d2​(u, v)",
+          "html": "<p dir=\"ltr\"><span>d1​(u, v) ≤ d2​(u, v)</span></p>",
+          "is_correct": true
+        },
+        {
+          "option_no": 3,
+          "text": "d1​(u, v) ≥ d2​(u, v)",
+          "html": "<p dir=\"ltr\"><span>d1​(u, v) ≥ d2​(u, v)</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 4,
+          "text": "d1​(u, v) != d2​(u, v)",
+          "html": "<p dir=\"ltr\"><span> d1​(u, v) != d2​(u, v)</span></p>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        2
+      ],
+      "explanation": "MST distance from u to v may not be the shortest path distance from u to v.\nShortest path distance from u to v i.e. d1 (u, v) ≤ MST path distance from u to v i.e. d2(u, v)",
+      "explanation_html": "<p dir=\"ltr\"><span>MST distance from u to v may not be the shortest path distance from u to v.</span></p><p dir=\"ltr\"><span>Shortest path distance from u to v i.e. d1 (u, v) ≤ MST path distance from u to v i.e. d2(u, v)</span></p>",
+      "created_on": "2025-05-16 - 02:06:12",
+      "updated_on": "2025-11-12 - 16:10:20"
+    },
+    {
+      "qno": 20,
+      "id": 150165,
+      "title": "Algorithm || 2014 NAT || 2-mark || Module 2: Design Strategies | Greedy algorithm",
+      "slug": "1-34",
+      "question": "Suppose P, Q, R, S, T are sorted sequences having lengths 20, 24, 30, 35, 50 respectively. They are to be merged into a single sequence by merging together two sequences at a time. The number of comparisons that will be needed in the worst case by the optimal algorithm for doing this is ____.\nGATE CSE 2014,SET2 - [2Marks] (NAT)",
+      "question_html": "<p dir=\"ltr\"><span>Suppose P, Q, R, S, T are sorted sequences having lengths 20, 24, 30, 35, 50 respectively. They are to be merged into a single sequence by merging together two sequences at a time. The number of comparisons that will be needed in the worst case by the optimal algorithm for doing this is ____.</span><br><b><strong>GATE CSE 2014,SET2 - [2Marks] (NAT)</strong></b></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "358",
+          "html": "<p><span>358</span></p>",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        1
+      ],
+      "explanation": "To merge two lists of size m and n, we need to do m+n-1 comparisons in worst case. Since we need to merge 2 at a time, the optimal strategy would be to take smallest size lists first. The reason for picking smallest two items is to carry minimum items for repetition in merging. We first merge 20 and 24 and get a list of 44 using 43 worst case comparisons. Then we merge 30 and 35 into a list of 65 using 64 worst case comparisons. Then we merge 50 and 44 into a list of 94 using 93 comparisons. Finally, we merge 94 and 65 using 158 comparisons. So total number of comparisons is 43 + 64 + 93 + 158 which is 358.",
+      "explanation_html": "<p dir=\"ltr\"><span>To merge two lists of size m and n, we need to do m+n-1 comparisons in worst case. Since we need to merge 2 at a time, the optimal strategy would be to take smallest size lists first. The reason for picking smallest two items is to carry minimum items for repetition in merging. We first merge 20 and 24 and get a list of 44 using 43 worst case comparisons. Then we merge 30 and 35 into a list of 65 using 64 worst case comparisons. Then we merge 50 and 44 into a list of 94 using 93 comparisons. Finally, we merge 94 and 65 using 158 comparisons. So total number of comparisons is 43 + 64 + 93 + 158 which is 358.</span></p>",
+      "created_on": "2025-04-28 - 17:42:08",
+      "updated_on": "2025-10-15 - 17:23:04"
+    },
+    {
+      "qno": 21,
+      "id": 150051,
+      "title": "Algorithm || 2010 MCQ || 2-mark || Module 3: Design Strategies | Dynamic Programming",
+      "slug": "1-15",
+      "question": "The weight of a sequence a _0 , a _1 , …, a _n–1  of real numbers is defined as a _0  + a _1  / 2 + …+ a _n–1 /2 ^n–1 . A subsequence of a sequence is obtained by deleting some elements from the sequence, keeping the order of the remaining elements the same. Let X denote the maximum possible weight of a subsequence of a _0 , a _1 ,..., a _n-1 . Then X is equal to\nGATE CSE 2010 - [2Marks] (MCQ)",
+      "question_html": "<p dir=\"ltr\"><span>The weight of a sequence a</span><sub><span>0</span></sub><span> , a</span><sub><span>1</span></sub><span> , …, a</span><sub><span>n–1</span></sub><span> &nbsp;of real numbers is defined as a</span><sub><span>0</span></sub><span> &nbsp;+ a</span><sub><span>1</span></sub><span>&nbsp;/ 2 + …+ a </span><sub><span>n–1</span></sub><span> /2</span><sup><span>n–1 </span></sup><span>. A subsequence of a sequence is obtained by deleting some elements from the sequence, keeping the order of the remaining elements the same. Let X denote the maximum possible weight of a subsequence of a</span><sub><span>0</span></sub><span> , a</span><sub><span>1</span></sub><span> ,..., a</span><sub><span>n-1</span></sub><span> . Then X is equal to</span><br><b><strong>GATE CSE 2010 - [2Marks] (MCQ)</strong></b></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "max(Y, a _0 + Y)",
+          "html": "<p dir=\"ltr\"><span>max(Y, a</span><sub><span>0</span></sub><span> + Y)</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "max(Y, a _0 + Y/2)",
+          "html": "<p dir=\"ltr\"><span>max(Y, a</span><sub><span>0</span></sub><span> + Y/2)</span></p>",
+          "is_correct": true
+        },
+        {
+          "option_no": 3,
+          "text": "max(Y, a _0 + 2Y)",
+          "html": "<p dir=\"ltr\"><span>max(Y, a</span><sub><span>0</span></sub><span> + 2Y)</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 4,
+          "text": "a _0 + Y/2",
+          "html": "<p dir=\"ltr\"><span>a</span><sub><span>0</span></sub><span> + Y/2</span></p>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        2
+      ],
+      "explanation": "Do not include a0 in the subsequence: then the maximum possible weight will be equal to maximum possible weight of a subsequence of {a1, a2, …..an} which is represented by Y. Include a0: then maximum possible weight will be equal to a0 + (each number picked in Y will get divided by 2) a0 + Y/2. Here you can note that Y will itself pick optimal subsequence to maximize the weight. Final answer will be Max (Case1, Case2) i.e. Max (Y, a 0  + Y/2).\nHence (B) is correct.",
+      "explanation_html": "<p dir=\"ltr\"><span>Do not include a0 in the subsequence: then the maximum possible weight will be equal to maximum possible weight of a subsequence of {a1, a2, …..an} which is represented by Y. Include a0: then maximum possible weight will be equal to a0 + (each number picked in Y will get divided by 2)  a0 + Y/2. Here you can note that Y will itself pick optimal subsequence to maximize the weight. Final answer will be Max (Case1, Case2) i.e. Max (Y, a 0 &nbsp;+ Y/2). </span></p><p dir=\"ltr\"><span>Hence (B) is correct.</span></p>",
+      "created_on": "2025-04-28 - 01:03:20",
+      "updated_on": "2025-10-15 - 13:10:21"
+    },
+    {
+      "qno": 22,
+      "id": 150084,
+      "title": "Algorithm || 2011 MCQ || 2-mark || Module 3: Design Strategies | Dynamic Programming",
+      "slug": "1-18",
+      "question": "Four matrices M1, M2, M3 and M4 of dimensions pxq, qxr, rxs and sxt respectively can be multiplied is several ways with different number of total scalar multiplications. For example, when multiplied as ((M1 X M2) X (M3 X M4)), the total number of multiplications is pqr + rst + prt.  If p = 10, q = 100, r = 20, s = 5 and t = 80, then the number of scalar multiplications needed is:\nGATE CSE 2011 - [2Marks] (MCQ)",
+      "question_html": "<p dir=\"ltr\"><span>Four matrices M1, M2, M3 and M4 of dimensions pxq, qxr, rxs and sxt respectively can be multiplied is several ways with different number of total scalar multiplications. For example, when multiplied as ((M1 X M2) X (M3 X M4)), the total number of multiplications is pqr + rst + prt.&nbsp; If p = 10, q = 100, r = 20, s = 5 and t = 80, then the number of scalar multiplications needed is:</span></p><p dir=\"ltr\"><b><strong>GATE CSE 2011 - [2Marks] (MCQ)</strong></b></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "248000",
+          "html": "<p><span>248000</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "44000",
+          "html": "<p><span>44000</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "19000",
+          "html": "<p><span>19000</span></p>",
+          "is_correct": true
+        },
+        {
+          "option_no": 4,
+          "text": "25000",
+          "html": "<p><span>25000</span></p>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        3
+      ],
+      "explanation": "Multiply as (M 1  × (M 2  × M 3 )) × M 4 Total number of scalar multiplications is\n= qrs + psq + pst\n= 100*20*5+10*100*5+10*5*80\n= 10000 + 5000 + 4000 = 19000",
+      "explanation_html": "<p dir=\"ltr\"><span>Multiply as (M 1 &nbsp;× (M 2 &nbsp;× M 3 )) × M 4 Total number of scalar multiplications is</span></p><p dir=\"ltr\"><span>= qrs + psq + pst</span></p><p><span>= 100*20*5+10*100*5+10*5*80</span></p><p><span>= 10000 + 5000 + 4000 = 19000</span></p>",
+      "created_on": "2025-04-28 - 12:12:09",
+      "updated_on": "2025-11-19 - 15:27:50"
+    },
+    {
+      "qno": 23,
+      "id": 150091,
+      "title": "Algorithm || 2011 MCQ || 2-mark || Module 2: Design Strategies | Greedy algorithm",
+      "slug": "1-19",
+      "question": "An undirected graph G(V,E) contains n (n > 2) nodes named v _1 , v _2 ... v _n . Two nodes v i , v j  are connected if and only if 0 < | i- j | < = 2 .  Each edge ( vi, vj )is assigned a weight i + j. A sample graph with n = 4 is shown below.\n. What will be the cost of the minimum spanning tree (MST) of such a graph with 11 nodes?\nGATE CSE 2011 - [2Marks] (MCQ)",
+      "question_html": "<p dir=\"ltr\"><span>An&nbsp;undirected graph&nbsp;G(V,E) contains&nbsp;n&nbsp;(n &gt; 2) nodes named v</span><sub><span>1</span></sub><span>, v</span><sub><span>2</span></sub><span>... v</span><sub><span>n</span></sub><span>. Two nodes&nbsp;v i ,&nbsp;v j &nbsp;are connected if and only if 0 &lt; | i- j | &lt; = 2 .&nbsp; Each edge ( vi, vj )is assigned a weight&nbsp;i + j. A sample graph with&nbsp;n&nbsp;= 4 is shown below.</span></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20250428124147732968/Screenshot-2025-04-28-124135.png\" alt=\"Screenshot-2025-04-28-124135\" width=\"333\" height=\"267\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20250428124147732968/Screenshot-2025-04-28-124135.png 333w,https://media.geeksforgeeks.org/wp-content/uploads/20250428124147732968/Screenshot-2025-04-28-124135-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20250428124147732968/Screenshot-2025-04-28-124135-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20250428124147732968/Screenshot-2025-04-28-124135-300.png 300w\" loading=\"auto\"><figcaption>.</figcaption></figure><p dir=\"ltr\"><span>What will be the cost of the minimum spanning tree (MST) of such a graph with 11 nodes?</span><br><b><strong>GATE CSE 2011 - [2Marks] (MCQ)</strong></b></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "1 / 11 ( 11 n ^2 - 5n )",
+          "html": "<p dir=\"ltr\"><span>1 / 11 ( 11 n</span><sup><span>2</span></sup><span> - 5n )</span></p><p dir=\"ltr\"><br></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "n ^2 - n + 1",
+          "html": "<p dir=\"ltr\"><span>n</span><sup><span>2 </span></sup><span>- n + 1</span></p>",
+          "is_correct": true
+        },
+        {
+          "option_no": 3,
+          "text": "6n - 11",
+          "html": "<p dir=\"ltr\"><span>6n - 11</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 4,
+          "text": "2n + 1",
+          "html": "<p dir=\"ltr\"><span>2n + 1</span></p>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        2
+      ],
+      "explanation": "Answer is B.\n.",
+      "explanation_html": "<p dir=\"ltr\"><span>Answer is B.</span></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20251120150614143870/Screenshot-2025-11-20-150548.png\" alt=\"Screenshot-2025-11-20-150548\" width=\"414\" height=\"157\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20251120150614143870/Screenshot-2025-11-20-150548.png 414w,https://media.geeksforgeeks.org/wp-content/uploads/20251120150614143870/Screenshot-2025-11-20-150548-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20251120150614143870/Screenshot-2025-11-20-150548-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20251120150614143870/Screenshot-2025-11-20-150548-300.png 300w\"><figcaption>.</figcaption></figure>",
+      "created_on": "2025-04-28 - 12:48:19",
+      "updated_on": "2025-11-20 - 15:06:35"
+    },
+    {
+      "qno": 24,
+      "id": 150093,
+      "title": "Algorithm || 2011 MCQ || 2-mark || Module 2: Design Strategies | Greedy algorithm",
+      "slug": "2-14",
+      "question": "ques The length of the path from v 5  to v 6  in the MST of previous question with n = 10 is\nGATE CSE 2011 - [2Marks] (MCQ)",
+      "question_html": "<p><br></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20251118154230755941/Screenshot-2025-11-18-154010.png\" alt=\"Screenshot-2025-11-18-154010\" width=\"927\" height=\"303\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20251118154230755941/Screenshot-2025-11-18-154010.png 927w,https://media.geeksforgeeks.org/wp-content/uploads/20251118154230755941/Screenshot-2025-11-18-154010-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20251118154230755941/Screenshot-2025-11-18-154010-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20251118154230755941/Screenshot-2025-11-18-154010-300.png 300w,https://media.geeksforgeeks.org/wp-content/uploads/20251118154230755941/Screenshot-2025-11-18-154010-660.png 660w,https://media.geeksforgeeks.org/wp-content/uploads/20251118154230755941/Screenshot-2025-11-18-154010-768.png 768w\" loading=\"auto\"><figcaption>ques</figcaption></figure><p dir=\"ltr\"><span>The length of the path from v 5 &nbsp;to v 6 &nbsp;in the MST of previous question with&nbsp;n&nbsp;= 10 is</span><br><b><strong>GATE CSE 2011 - [2Marks] (MCQ)</strong></b></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "11",
+          "html": "<p><span>11</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "25",
+          "html": "<p><span>25</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "31",
+          "html": "<p><span>31</span></p>",
+          "is_correct": true
+        },
+        {
+          "option_no": 4,
+          "text": "41",
+          "html": "<p><span>41</span></p>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        3
+      ],
+      "explanation": "ans ⇨8+4+3+6+10 = 31",
+      "explanation_html": "<figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20250428124947357221/Screenshot-2025-04-28-124934.png\" alt=\"Screenshot-2025-04-28-124934\" width=\"329\" height=\"180\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20250428124947357221/Screenshot-2025-04-28-124934.png 329w,https://media.geeksforgeeks.org/wp-content/uploads/20250428124947357221/Screenshot-2025-04-28-124934-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20250428124947357221/Screenshot-2025-04-28-124934-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20250428124947357221/Screenshot-2025-04-28-124934-300.png 300w\" loading=\"auto\"><figcaption>ans</figcaption></figure><p><span>⇨8+4+3+6+10 = 31</span></p>",
+      "created_on": "2025-04-28 - 12:50:54",
+      "updated_on": "2025-11-19 - 15:21:25"
+    },
+    {
+      "qno": 25,
+      "id": 150094,
+      "title": "Algorithm || 2011 MCQ || 2-mark || Module 2: Design Strategies | Greedy algorithm",
+      "slug": "2-15",
+      "question": "ques\nThe length of the path from v 5  to v 6  in the MST of previous question with n = 10 is\nGATE CSE 2011 - [2Marks] (MCQ)",
+      "question_html": "<figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20251118154033797003/Screenshot-2025-11-18-154010.png\" alt=\"Screenshot-2025-11-18-154010\" width=\"927\" height=\"303\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20251118154033797003/Screenshot-2025-11-18-154010.png 927w,https://media.geeksforgeeks.org/wp-content/uploads/20251118154033797003/Screenshot-2025-11-18-154010-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20251118154033797003/Screenshot-2025-11-18-154010-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20251118154033797003/Screenshot-2025-11-18-154010-300.png 300w,https://media.geeksforgeeks.org/wp-content/uploads/20251118154033797003/Screenshot-2025-11-18-154010-660.png 660w,https://media.geeksforgeeks.org/wp-content/uploads/20251118154033797003/Screenshot-2025-11-18-154010-768.png 768w\"><figcaption>ques</figcaption></figure><p><br></p><p dir=\"ltr\"><span>The length of the path from v 5 &nbsp;to v 6 &nbsp;in the MST of previous question with&nbsp;n&nbsp;= 10 is</span><br><b><strong>GATE CSE 2011 - [2Marks] (MCQ)</strong></b></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "11",
+          "html": "<p><span>11</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "25",
+          "html": "<p><span>25</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "31",
+          "html": "<p><span>31</span></p>",
+          "is_correct": true
+        },
+        {
+          "option_no": 4,
+          "text": "41",
+          "html": "<p><span>41</span></p>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        3
+      ],
+      "explanation": "ans ⇒8+4+3+6+10 = 31",
+      "explanation_html": "<figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20250428124947357221/Screenshot-2025-04-28-124934.png\" alt=\"Screenshot-2025-04-28-124934\" width=\"329\" height=\"180\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20250428124947357221/Screenshot-2025-04-28-124934.png 329w,https://media.geeksforgeeks.org/wp-content/uploads/20250428124947357221/Screenshot-2025-04-28-124934-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20250428124947357221/Screenshot-2025-04-28-124934-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20250428124947357221/Screenshot-2025-04-28-124934-300.png 300w\" loading=\"auto\"><figcaption>ans</figcaption></figure><p><span>⇒8+4+3+6+10 = 31</span></p>",
+      "created_on": "2025-04-28 - 12:51:12",
+      "updated_on": "2025-11-18 - 15:41:22"
+    },
+    {
+      "qno": 26,
+      "id": 150105,
+      "title": "Algorithm || 2011 MCQ || 1-mark || Module 3: Design Strategies | Dynamic Programming",
+      "slug": "1-20",
+      "question": "An algorithm to find the length of the longest monotonically increasing sequence of numbers in an array A[0: n - 1] is given below. Let L; denote the length of the longest monotonically increasing sequence starting at index i in the array. Initialize L _n-1  = 1. For all i such that 0 ≤ i ≤ n – 2\n.\nFinally the length of the longest monotonically increasing sequence is Max (L _0 , L _ 1 ,……., L _n-1 ). Which of the following statements is TRUE?\nGATE CSE 2011 - [1Marks] (MCQ)",
+      "question_html": "<p dir=\"ltr\"><span>An algorithm to find the length of the longest monotonically increasing sequence of numbers in an array A[0:&nbsp;n&nbsp;- 1] is given below. Let L; denote the length of the longest monotonically increasing sequence starting at index&nbsp;i&nbsp;in the array. Initialize L </span><sub><span>n-1</span></sub><span> &nbsp;= 1. For all i such that 0 ≤ i ≤ n – 2</span></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20251015130012046249/Screenshot-2025-10-15-125909.png\" alt=\"Screenshot-2025-10-15-125909\" width=\"427\" height=\"106\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20251015130012046249/Screenshot-2025-10-15-125909.png 427w,https://media.geeksforgeeks.org/wp-content/uploads/20251015130012046249/Screenshot-2025-10-15-125909-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20251015130012046249/Screenshot-2025-10-15-125909-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20251015130012046249/Screenshot-2025-10-15-125909-300.png 300w\" loading=\"auto\"><figcaption>.</figcaption></figure><p dir=\"ltr\"><br></p><p dir=\"ltr\"><span>Finally the length of the longest monotonically increasing sequence is Max (L </span><sub><span>0</span></sub><span> , L</span><sub><span> 1</span></sub><span> ,……., L </span><sub><span>n-1</span></sub><span> ). Which of the following statements is&nbsp;TRUE?</span><br><b><strong>GATE CSE 2011 - [1Marks] (MCQ)</strong></b></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "The algorithm uses dynamic programming paradigm",
+          "html": "<p dir=\"ltr\"><span>The algorithm uses dynamic programming paradigm</span></p>",
+          "is_correct": true
+        },
+        {
+          "option_no": 2,
+          "text": "The algorithm has a linear complexity and uses branch and bound paradigm",
+          "html": "<p dir=\"ltr\"><span>The algorithm has a linear complexity and uses branch and bound paradigm</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "The algorithm has a non-linear polynomial complexity and uses branch and bound paradigm",
+          "html": "<p dir=\"ltr\"><span>The algorithm has a non-linear polynomial complexity and uses branch and bound paradigm</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 4,
+          "text": "The algorithm uses divide and conquer paradigm.",
+          "html": "<p dir=\"ltr\"><span>The algorithm uses divide and conquer paradigm.</span></p>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        1
+      ],
+      "explanation": "The algorithm computes the length of the longest increasing sequence starting from each index by building the solution for smaller subproblems (from the end towards the beginning) and reusing previously computed results, which is the essence of dynamic programming. Each computation at index i depends on the result for index i+1, and all results are stored and reused.",
+      "explanation_html": "<p dir=\"ltr\"><span>The algorithm computes the length of the longest increasing sequence starting from each index by building the solution for smaller subproblems (from the end towards the beginning) and reusing previously computed results, which is the essence of dynamic programming. Each computation at index&nbsp;i</span><i><em class=\"GFGEditorTheme__textItalic\"> </em></i><span>depends on the result for index&nbsp;i+1, and all results are stored and reused.</span></p>",
+      "created_on": "2025-04-28 - 13:09:53",
+      "updated_on": "2025-11-19 - 15:20:40"
+    },
+    {
+      "qno": 27,
+      "id": 150132,
+      "title": "Algorithm || 2012 MCQ || 2-mark || Module 2: Design Strategies | Greedy algorithm",
+      "slug": "1-24",
+      "question": "Let G be a weighted graph with edge weights greater than one and G' be the graph constructed by squaring the weights of edges in G. Let T and T' be the minimum spanning trees of G and G' , respectively, with total weights t and t' . Which of the following statements is TRUE?\nGATE CSE 2012 - [2Marks] (MCQ)",
+      "question_html": "<p dir=\"ltr\"><span>Let G be a weighted graph with edge weights greater than one and G' be the graph constructed by squaring the weights of edges in G. Let T and T' be the minimum spanning trees of G and G' , respectively, with total weights t and t' . Which of the following statements is TRUE?</span><br><b><strong>GATE CSE 2012 - [2Marks] (MCQ)</strong></b></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "T' = T with total weight t' = t ^2",
+          "html": "<p dir=\"ltr\"><span>T' = T with total weight t' = t </span><sup><span>2</span></sup></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "T' = T with total weight t' < t ^2",
+          "html": "<p dir=\"ltr\"><span>T' = T with total weight t' &lt; t </span><sup><span>2</span></sup></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "C. T' ≠ T but total weight t' = t ^2",
+          "html": "<p dir=\"ltr\"><span>C.&nbsp;T'  ≠  T but total weight t' = t</span><sup><span>2</span></sup></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 4,
+          "text": "None of the above",
+          "html": "<p dir=\"ltr\"><span>None of the above</span></p>",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        4
+      ],
+      "explanation": "When edge weights are squared, the minimum spanning tree does not change.\nThis happens because squaring positive weights keeps their order the same. If one weight was smaller than another before squaring, it remains smaller after squaring.\nThe sum of squared weights is less than the square of the sum of weights, except when there is only one edge.\nSo option B is generally correct, and option A is only true for single-edge graphs. In GATE 2012, marks were given to all.",
+      "explanation_html": "<p dir=\"ltr\"><span>When edge weights are squared, the minimum spanning tree does not change.</span></p><p dir=\"ltr\"><span>This happens because squaring positive weights keeps their order the same. If one weight was smaller than another before squaring, it remains smaller after squaring.</span></p><p dir=\"ltr\"><span>The sum of squared weights is less than the square of the sum of weights, except when there is only one edge.</span></p><p dir=\"ltr\"><span>So option B is generally correct, and option A is only true for single-edge graphs. In GATE 2012, marks were given to all.</span></p>",
+      "created_on": "2025-04-28 - 14:56:39",
+      "updated_on": "2025-11-18 - 15:25:36"
+    },
+    {
+      "qno": 28,
+      "id": 150135,
+      "title": "Algorithm || 2012 MCQ || 2-mark || Module 2: Design Strategies | Greedy algorithm",
+      "slug": "2-17",
+      "question": "Consider the directed graph shown in the figure below. There are multiple shortest paths between vertices S and T. Which one will be reported by Dijkstra’s shortest path algorithm? Assume that, in any iteration, the shortest path to a vertex v is updated only when a strictly shorter path to v is discovered.\n. GATE CSE 2012- [2Marks] (MCQ)",
+      "question_html": "<p dir=\"ltr\"><span>Consider the directed graph shown in the figure below. There are multiple shortest paths between vertices S and T. Which one will be reported by Dijkstra’s shortest path algorithm? Assume that, in any iteration, the shortest path to a vertex v is updated only when a strictly shorter path to&nbsp;v&nbsp;is discovered.</span></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20250428150312473233/Screenshot-2025-04-28-150301.png\" alt=\"Screenshot-2025-04-28-150301\" width=\"374\" height=\"229\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20250428150312473233/Screenshot-2025-04-28-150301.png 374w,https://media.geeksforgeeks.org/wp-content/uploads/20250428150312473233/Screenshot-2025-04-28-150301-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20250428150312473233/Screenshot-2025-04-28-150301-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20250428150312473233/Screenshot-2025-04-28-150301-300.png 300w\" loading=\"auto\"><figcaption>.</figcaption></figure><p dir=\"ltr\"><b><strong>GATE CSE 2012- [2Marks] (MCQ)</strong></b></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "SADT",
+          "html": "<p dir=\"ltr\"><span>SADT</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "SBDT",
+          "html": "<p dir=\"ltr\"><span>SBDT</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "SACDT",
+          "html": "<p dir=\"ltr\"><span>SACDT</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 4,
+          "text": "SACET",
+          "html": "<p dir=\"ltr\"><span>SACET</span></p>",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        4
+      ],
+      "explanation": "Relaxation at every vertex is as follows:\nNote that the next picked vertex corresponds to the next row in Table\n. .",
+      "explanation_html": "<p dir=\"ltr\" style=\"text-align: left;\"><span>Relaxation&nbsp;at every vertex is as follows:</span></p><p dir=\"ltr\" style=\"text-align: left;\"><span>Note that the next picked vertex corresponds to the next row in Table</span></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20251120150228550320/Screenshot-2025-11-20-150215.png\" alt=\"Screenshot-2025-11-20-150215\" width=\"697\" height=\"361\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20251120150228550320/Screenshot-2025-11-20-150215.png 697w,https://media.geeksforgeeks.org/wp-content/uploads/20251120150228550320/Screenshot-2025-11-20-150215-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20251120150228550320/Screenshot-2025-11-20-150215-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20251120150228550320/Screenshot-2025-11-20-150215-300.png 300w,https://media.geeksforgeeks.org/wp-content/uploads/20251120150228550320/Screenshot-2025-11-20-150215-660.png 660w\" loading=\"auto\"><figcaption>.</figcaption></figure><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20251120150315630459/Screenshot-2025-11-20-150257.png\" alt=\"Screenshot-2025-11-20-150257\" width=\"339\" height=\"30\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20251120150315630459/Screenshot-2025-11-20-150257.png 339w,https://media.geeksforgeeks.org/wp-content/uploads/20251120150315630459/Screenshot-2025-11-20-150257-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20251120150315630459/Screenshot-2025-11-20-150257-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20251120150315630459/Screenshot-2025-11-20-150257-300.png 300w\"><figcaption>.</figcaption></figure>",
+      "created_on": "2025-04-28 - 15:07:12",
+      "updated_on": "2025-11-20 - 15:03:56"
+    },
+    {
+      "qno": 29,
+      "id": 150147,
+      "title": "Algorithm || 2013 MCQ || 1-mark || Module 2: Design Strategies | Greedy algorithm",
+      "slug": "1-28",
+      "question": "What is the time complexity of Bellman-Ford single-source shortest path algorithm on a complete graph of n vertices?\nGATE CSE 2013 - [1Marks] (MCQ)",
+      "question_html": "<p dir=\"ltr\"><span>What is the time complexity of Bellman-Ford single-source shortest path algorithm on a complete graph of&nbsp;n&nbsp;vertices?</span><br><b><strong>GATE CSE 2013 - [1Marks] (MCQ)</strong></b></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "Θ(n ^2 )",
+          "html": "<p dir=\"ltr\"><span>Θ(n</span><sup><span>2</span></sup><span>)</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "Θ(n ^2 log n)",
+          "html": "<p dir=\"ltr\"><span>Θ(n</span><sup><span>2</span></sup><span>log&nbsp;n)</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "Θ(n ^3 )",
+          "html": "<p dir=\"ltr\"><span>Θ(n</span><sup><span>3</span></sup><span>)</span></p>",
+          "is_correct": true
+        },
+        {
+          "option_no": 4,
+          "text": "Θ(n ^3 log n)",
+          "html": "<p dir=\"ltr\"><span>Θ(n</span><sup><span>3</span></sup><span>log&nbsp;n)</span></p>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        3
+      ],
+      "explanation": "Given:\nA complete graph with n vertices.\nTo Find:\nTime complexity of the Bellman-Ford Single Source Shortest Path (SSSP) algorithm.\nAnalysis:\nFor a general graph with n vertices and m edges, the time complexity of the Bellman-Ford algorithm is:\nans",
+      "explanation_html": "<p dir=\"ltr\" style=\"text-align: start;\"><b><strong>Given:</strong></b><br><span>A complete graph with&nbsp;n&nbsp;vertices.</span></p><p dir=\"ltr\" style=\"text-align: start;\"><b><strong>To Find:</strong></b><br><span>Time complexity of the Bellman-Ford Single Source Shortest Path (SSSP) algorithm.</span></p><p dir=\"ltr\" style=\"text-align: start;\"><b><strong>Analysis:</strong></b><br><span>For a general graph with&nbsp;n&nbsp;vertices and&nbsp;m&nbsp;edges, the time complexity of the Bellman-Ford algorithm is:</span><br></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20251015173828860382/Screenshot-2025-10-15-173817.png\" alt=\"Screenshot-2025-10-15-173817\" width=\"736\" height=\"475\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20251015173828860382/Screenshot-2025-10-15-173817.png 736w,https://media.geeksforgeeks.org/wp-content/uploads/20251015173828860382/Screenshot-2025-10-15-173817-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20251015173828860382/Screenshot-2025-10-15-173817-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20251015173828860382/Screenshot-2025-10-15-173817-300.png 300w,https://media.geeksforgeeks.org/wp-content/uploads/20251015173828860382/Screenshot-2025-10-15-173817-660.png 660w\" loading=\"auto\"><figcaption>ans</figcaption></figure><p dir=\"ltr\"><br></p>",
+      "created_on": "2025-04-28 - 16:06:05",
+      "updated_on": "2025-11-18 - 14:58:51"
+    },
+    {
+      "qno": 30,
+      "id": 150046,
+      "title": "Algorithm || 2010 MCQ || 2-mark || Module 2 : Design Strategies | Greedy algorithm",
+      "slug": "2-11",
+      "question": ". What is the minimum possible weight of a spanning tree T in this graph such that vertex 0 is a leaf node in the tree T?\nGATE CSE 2010 - [2Marks] (MCQ)",
+      "question_html": "<figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20251120151033349895/Screenshot-2025-11-20-151021.png\" alt=\"Screenshot-2025-11-20-151021\" width=\"811\" height=\"148\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20251120151033349895/Screenshot-2025-11-20-151021.png 811w,https://media.geeksforgeeks.org/wp-content/uploads/20251120151033349895/Screenshot-2025-11-20-151021-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20251120151033349895/Screenshot-2025-11-20-151021-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20251120151033349895/Screenshot-2025-11-20-151021-300.png 300w,https://media.geeksforgeeks.org/wp-content/uploads/20251120151033349895/Screenshot-2025-11-20-151021-660.png 660w,https://media.geeksforgeeks.org/wp-content/uploads/20251120151033349895/Screenshot-2025-11-20-151021-768.png 768w\"><figcaption>.</figcaption></figure><p dir=\"ltr\"><span>What is the minimum possible weight of a spanning tree T in this graph such that vertex 0 is a leaf node in the tree T?</span></p><p dir=\"ltr\"><b><strong>GATE CSE 2010 - [2Marks] (MCQ)</strong></b></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "7",
+          "html": "<p><span>7</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "8",
+          "html": "<p><span>8</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "9",
+          "html": "<p><span>9</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 4,
+          "text": "10",
+          "html": "<p><span>10</span></p>",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        4
+      ],
+      "explanation": ". V _0  V _1  V _2  V _3  V _4\nFor minimum cost, we go to The edges of the spanning tree are:\n0−1, 1−3, 3−4, 4−2.\n∴ Total cost = 10",
+      "explanation_html": "<figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20251120151136338274/Screenshot-2025-11-20-151124.png\" alt=\"Screenshot-2025-11-20-151124\" width=\"330\" height=\"325\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20251120151136338274/Screenshot-2025-11-20-151124.png 330w,https://media.geeksforgeeks.org/wp-content/uploads/20251120151136338274/Screenshot-2025-11-20-151124-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20251120151136338274/Screenshot-2025-11-20-151124-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20251120151136338274/Screenshot-2025-11-20-151124-300.png 300w\"><figcaption>.</figcaption></figure><p dir=\"ltr\"><span>V </span><sub><span>0</span></sub><span> &nbsp;V </span><sub><span>1</span></sub><span> &nbsp;V </span><sub><span>2</span></sub><span> &nbsp;V </span><sub><span>3</span></sub><span> &nbsp;V </span><sub><span>4</span></sub></p><p dir=\"ltr\"><span>For minimum cost, we go to The edges of the spanning tree are:</span></p><p><span>0−1, 1−3, 3−4, 4−2.</span></p><p dir=\"ltr\"><span>∴ Total cost = 10</span></p>",
+      "created_on": "2025-04-28 - 00:30:57",
+      "updated_on": "2025-11-20 - 15:11:59"
+    },
+    {
+      "qno": 31,
+      "id": 150181,
+      "title": "Algorithm || 2014 NAT || 2-mark || Module 2: Design Strategies | Greedy algorithm",
+      "slug": "2-20",
+      "question": "The number of distinct minimum spanning trees for the weighted graph below is\n. GATE CSE 2014,SET2 - [2Marks] (NAT)",
+      "question_html": "<p dir=\"ltr\"><span>The number of distinct minimum spanning trees for the weighted graph below is</span></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20250428175837526407/Screenshot-2025-04-28-175820.png\" alt=\"Screenshot-2025-04-28-175820\" width=\"452\" height=\"228\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20250428175837526407/Screenshot-2025-04-28-175820.png 452w,https://media.geeksforgeeks.org/wp-content/uploads/20250428175837526407/Screenshot-2025-04-28-175820-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20250428175837526407/Screenshot-2025-04-28-175820-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20250428175837526407/Screenshot-2025-04-28-175820-300.png 300w\" loading=\"auto\"><figcaption>.</figcaption></figure><p dir=\"ltr\"><b><strong>GATE CSE 2014,SET2 - [2Marks] (NAT)</strong></b></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "6",
+          "html": "<p><span>6</span></p>",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        1
+      ],
+      "explanation": "Consider the connected weighted graph (Application of Kruskal’s Algorithm)\nans Sort the edges by increasing edges costs(weights)\nans Selection of edges of cost-1, will not form a cycle,\nans\nso Selection of {V 4 , V 5 } and {V 1 , V 5 } forms a cycle, so we will not consider the edges. The edge {V 6 , V 7 } can be chosen because of connectedness. Selection of {V 1 , V 2 } and {V 7 , V 8 } forms one minimum spanning tree. Selection of {V 1 , V 2 } and {V 7 , V 9 } forms one minimum spanning tree. Selection of {V 2 , V 4 } and {V 7 , V 8 } forms one minimum spanning tree. Selection of {V 2 , V 4 } and {V 7 , V 8 } forms one minimum spanning tree.\nSelection { v3, v4 } and {v7, v8}\nSelection { v3, v4 } and {v7, v9}\nforms two minimum spanning trees.\n∴ There are 6 distinct minimum spanning",
+      "explanation_html": "<p dir=\"ltr\"><span>Consider the connected weighted graph (Application of Kruskal’s Algorithm)</span></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20250428174337882013/Screenshot-2025-04-28-174307.png\" alt=\"Screenshot-2025-04-28-174307\" width=\"452\" height=\"248\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20250428174337882013/Screenshot-2025-04-28-174307.png 452w,https://media.geeksforgeeks.org/wp-content/uploads/20250428174337882013/Screenshot-2025-04-28-174307-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20250428174337882013/Screenshot-2025-04-28-174307-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20250428174337882013/Screenshot-2025-04-28-174307-300.png 300w\" loading=\"auto\"><figcaption>ans</figcaption></figure><p dir=\"ltr\"><span>Sort the edges by increasing edges costs(weights)</span></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20250428174645275683/Screenshot-2025-04-28-174446.png\" alt=\"Screenshot-2025-04-28-174446\" width=\"450\" height=\"211\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20250428174645275683/Screenshot-2025-04-28-174446.png 450w,https://media.geeksforgeeks.org/wp-content/uploads/20250428174645275683/Screenshot-2025-04-28-174446-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20250428174645275683/Screenshot-2025-04-28-174446-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20250428174645275683/Screenshot-2025-04-28-174446-300.png 300w\" loading=\"auto\"><figcaption>ans</figcaption></figure><p dir=\"ltr\"><span>Selection of edges of cost-1, will not form a cycle, </span></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20250428175623247835/Screenshot-2025-04-28-175536.png\" alt=\"Screenshot-2025-04-28-175536\" width=\"386\" height=\"249\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20250428175623247835/Screenshot-2025-04-28-175536.png 386w,https://media.geeksforgeeks.org/wp-content/uploads/20250428175623247835/Screenshot-2025-04-28-175536-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20250428175623247835/Screenshot-2025-04-28-175536-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20250428175623247835/Screenshot-2025-04-28-175536-300.png 300w\" loading=\"auto\"><figcaption>ans</figcaption></figure><p dir=\"ltr\"><br></p><p dir=\"ltr\"><span>so Selection of {V 4 , V 5 } and {V 1 , V 5 } forms a cycle, so we will not consider the edges. The edge {V 6 , V 7 } can be chosen because of connectedness. Selection of {V 1 , V 2 } and {V 7 , V 8 } forms one minimum spanning tree. Selection of {V 1 , V 2 } and&nbsp;{V 7 , V 9 }&nbsp;forms one minimum spanning tree. Selection of {V 2 , V 4 } and {V 7 , V 8 } forms one minimum spanning tree. Selection of {V 2 , V 4 } and {V 7 , V 8 } forms one minimum spanning tree. </span></p><p dir=\"ltr\"><span>Selection { v3, v4 } and {v7, v8}</span></p><p dir=\"ltr\"><span>Selection { v3, v4 } and {v7, v9}</span></p><p dir=\"ltr\"><span>forms two minimum spanning trees. </span></p><p dir=\"ltr\"><span>∴ There are 6 distinct minimum spanning</span></p>",
+      "created_on": "2025-04-28 - 17:58:56",
+      "updated_on": "2025-10-15 - 17:31:29"
+    },
+    {
+      "qno": 32,
+      "id": 150184,
+      "title": "Algorithm || 2014 MCQ || 1-mark || Module 2: Design Strategies | Greedy algorithm",
+      "slug": "1-35",
+      "question": "Consider the tree arcs of a BFS traversal from a source node W in an unweighted, connected, undirected graph. The tree T formed by the tree arcs is a data structure for computing\nGATE CSE 2014,SET2 - [1Marks] (MCQ)",
+      "question_html": "<p dir=\"ltr\"><span>Consider the tree arcs of a BFS traversal from a source node W in an unweighted, connected, undirected graph. The tree T formed by the tree arcs is a data structure for computing</span><br><b><strong>GATE CSE 2014,SET2 - [1Marks] (MCQ)</strong></b></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "the shortest path between every pair of vertices.",
+          "html": "<p dir=\"ltr\"><span>the shortest path between every pair of vertices.</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "the shortest path from W to every vertex in the graph.",
+          "html": "<p dir=\"ltr\"><span>the shortest path from W to every vertex in the graph.</span></p>",
+          "is_correct": true
+        },
+        {
+          "option_no": 3,
+          "text": "C. the shortest paths from W to only those nodes that are leaves of T.",
+          "html": "<p dir=\"ltr\"><span>C.&nbsp;the shortest paths from W to only those nodes that are leaves of T.</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 4,
+          "text": "the longest path in the graph.",
+          "html": "<p dir=\"ltr\"><span>the longest path in the graph.</span></p>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        2
+      ],
+      "explanation": "BFS always has a starting node. It does not calculate shortest path between every pair but it computes shortest path between W and any other vertex.",
+      "explanation_html": "<p dir=\"ltr\"><span>BFS always has a starting node. It does not calculate shortest path between every pair but it computes shortest path between&nbsp;W&nbsp;and any other vertex.</span></p>",
+      "created_on": "2025-04-28 - 18:04:54",
+      "updated_on": "2025-11-20 - 15:00:06"
+    },
+    {
+      "qno": 33,
+      "id": 150196,
+      "title": "Algorithm || 2014 NAT || 2-mark || Module 3: Design Strategies | Dynamic Programming",
+      "slug": "1-36",
+      "question": "Consider two strings A \"= qpqrr \" and B =\"pqprqrp\". Let x be the length of the longest common subsequence (not necessarily contiguous) between A and B and let y be the number of such longest common subsequences between A and B. Then x+10y = _____.\nGATE CSE 2014,SET2 - [2Marks] (NAT)",
+      "question_html": "<p dir=\"ltr\"><span>Consider two strings A \"= qpqrr \" and B =\"pqprqrp\". Let x be the length of the longest common subsequence (not necessarily contiguous) between A and B and let y be the number of such longest common subsequences between A and B. Then x+10y = _____.</span><br><b><strong>GATE CSE 2014,SET2 - [2Marks] (NAT)</strong></b></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "34",
+          "html": "<p><span>34</span></p>",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        1
+      ],
+      "explanation": ".",
+      "explanation_html": "<figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20251015125606248008/Screenshot-2025-10-15-125552.png\" alt=\"Screenshot-2025-10-15-125552\" width=\"1008\" height=\"478\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20251015125606248008/Screenshot-2025-10-15-125552.png 1008w,https://media.geeksforgeeks.org/wp-content/uploads/20251015125606248008/Screenshot-2025-10-15-125552-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20251015125606248008/Screenshot-2025-10-15-125552-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20251015125606248008/Screenshot-2025-10-15-125552-300.png 300w,https://media.geeksforgeeks.org/wp-content/uploads/20251015125606248008/Screenshot-2025-10-15-125552-660.png 660w,https://media.geeksforgeeks.org/wp-content/uploads/20251015125606248008/Screenshot-2025-10-15-125552-768.png 768w\"><figcaption>.</figcaption></figure><p><br></p>",
+      "created_on": "2025-04-28 - 18:26:47",
+      "updated_on": "2025-10-15 - 12:56:20"
+    },
+    {
+      "qno": 34,
+      "id": 151540,
+      "title": "Algorithm || 2015 MCQ || 1-mark || Module 2: Design Strategies | Greedy algorithm",
+      "slug": "1-128",
+      "question": "Let G= (V,E) be a simple undirected graph, and s be a particular vertex in it called the source. For x ∈ V, let d (x) denote the shortest distance in G from s to x. A breadth first search (BFS) is performed starting at s. Let T be the resultant BFS tree. If (u, v) is an edge of G that is not in T, then which one of the following CANNOT be the value of d (u) - d (v) ?\nGATE CSE 2015,SET1 - [1Marks] (MCQ)",
+      "question_html": "<p dir=\"ltr\"><span>Let&nbsp;G= (V,E) be a simple undirected graph, and&nbsp;s be a particular vertex in it called the source. For&nbsp;x&nbsp;∈&nbsp;V, let&nbsp;d&nbsp;(x)&nbsp;denote the shortest distance in&nbsp;G&nbsp;from&nbsp;s&nbsp;to&nbsp;x. A breadth first search (BFS) is performed starting at&nbsp;s. Let&nbsp;T&nbsp;be the resultant BFS tree. If (u,&nbsp;v) is an edge of&nbsp;G&nbsp;that is not in&nbsp;T, then which one of the following CANNOT be the value of&nbsp;d&nbsp;(u)&nbsp;-&nbsp;d&nbsp;(v)&nbsp;?</span><br><b><strong>GATE CSE 2015,SET1 - [1Marks] (MCQ)</strong></b></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "-1",
+          "html": "<p><span>-1</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "0",
+          "html": "<p><span>0</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "1",
+          "html": "<p><span>1</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 4,
+          "text": "2",
+          "html": "<p><span>2</span></p>",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        4
+      ],
+      "explanation": "The given graph is undirected, so an edge (u, v) also means (v, u) is also an edge. Since a shorter path can always be obtained by using edge (u, v) or (v, u), the difference between d(u) and d(v) cannot be more than 1",
+      "explanation_html": "<p dir=\"ltr\"><span>The given graph is undirected, so an edge (u, v) also means (v, u) is also an edge. Since a shorter path can always be obtained by using edge (u, v) or (v, u), the difference between d(u) and d(v) cannot be more than 1</span></p>",
+      "created_on": "2025-05-05 - 17:41:30",
+      "updated_on": "2025-10-15 - 17:08:56"
+    },
+    {
+      "qno": 35,
+      "id": 151541,
+      "title": "Algorithm || 2015 NAT || 2-mark || Module 2: Design Strategies | Greedy algorithm",
+      "slug": "1-129",
+      "question": "The graph shown below has 8 edges with distinct integer edge weights. The minimum spanning tree (MST) is of weight 36 and contains the edges: {(A, C), (B, C), (B, E), (E, F), (D, F)}. The edge weights of only those edges which are in the MST are given in the figure shown below. The minimum possible sum of weights of all 8 edges of this graph is\n. GATE CSE 2015,SET1 - [2Marks] (NAT)",
+      "question_html": "<p dir=\"ltr\"><span>The graph shown below has 8 edges with distinct integer edge weights. The minimum spanning tree (MST) is of weight 36 and contains the edges: {(A, C), (B, C), (B, E), (E, F), (D, F)}. The edge weights of only those edges which are in the MST are given in the figure shown below. The minimum possible sum of weights of all 8 edges of this graph is</span></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20250505180530044575/Screenshot-2025-05-05-180437.png\" alt=\"Screenshot-2025-05-05-180437\" width=\"406\" height=\"199\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20250505180530044575/Screenshot-2025-05-05-180437.png 406w,https://media.geeksforgeeks.org/wp-content/uploads/20250505180530044575/Screenshot-2025-05-05-180437-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20250505180530044575/Screenshot-2025-05-05-180437-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20250505180530044575/Screenshot-2025-05-05-180437-300.png 300w\" loading=\"auto\"><figcaption>.</figcaption></figure><p dir=\"ltr\"><b><strong>GATE CSE 2015,SET1 - [2Marks] (NAT)</strong></b></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "69",
+          "html": "<p><span>69</span></p>",
+          "is_correct": true
+        }
+      ],
+      "correct_answers": [
+        1
+      ],
+      "explanation": "Consider the cycle ABC. AC and BC and are part of minimum spanning tree. So, AB should be greater than  max(AC, BC) (greater and not equal as edge weights are given to be distinct), as otherwise we could add AB to the minimum spanning tree and removed the greater of AC, BC and we could have got another minimum spanning tree. So,  AB > 9.\n.",
+      "explanation_html": "<p dir=\"ltr\"><span>Consider the cycle&nbsp;ABC.&nbsp;AC and BC&nbsp;and&nbsp;are part of minimum spanning tree. So,&nbsp;AB should be greater than&nbsp;&nbsp;max(AC, BC) (greater and not equal as edge weights are given to be distinct), as otherwise we could add&nbsp;AB to the minimum spanning tree and removed the greater of&nbsp;AC, BC&nbsp;and we could have got another minimum spanning tree. So,&nbsp; AB &gt; 9.</span></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20251120145508214521/Screenshot-2025-11-20-145447.png\" alt=\"Screenshot-2025-11-20-145447\" width=\"829\" height=\"151\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20251120145508214521/Screenshot-2025-11-20-145447.png 829w,https://media.geeksforgeeks.org/wp-content/uploads/20251120145508214521/Screenshot-2025-11-20-145447-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20251120145508214521/Screenshot-2025-11-20-145447-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20251120145508214521/Screenshot-2025-11-20-145447-300.png 300w,https://media.geeksforgeeks.org/wp-content/uploads/20251120145508214521/Screenshot-2025-11-20-145447-660.png 660w,https://media.geeksforgeeks.org/wp-content/uploads/20251120145508214521/Screenshot-2025-11-20-145447-768.png 768w\"><figcaption>.</figcaption></figure>",
+      "created_on": "2025-05-05 - 17:46:29",
+      "updated_on": "2025-11-20 - 14:56:23"
+    },
+    {
+      "qno": 36,
+      "id": 151542,
+      "title": "Algorithm || 2015 MCQ || 1-mark || Module 2: Design Strategies | Greedy algorithm",
+      "slug": "2-50",
+      "question": "Given below are some algorithms, and some algorithm design paradigms.\nList - I\nP. Dijkstra’s Shortest Path\nQ. Floyd-Warshall algorithm to compute all pairs shortest path\nR. Binary search on a sorted array\nS. Backtracking search on a graph\nList – II\ni. Divide and Conquer\nii. Dynamic Programming\niii. Greedy design\niv. Depth-first search\nv. Breadth-first search\nMatch the above algorithms on the left to the corresponding design paradigm they follow.\nGATE CSE 2015,SET2 - [1Marks] (MCQ)",
+      "question_html": "<p dir=\"ltr\"><span>Given below are some algorithms, and some algorithm design paradigms.</span></p><p dir=\"ltr\"><b><strong>List - I</strong></b></p><p dir=\"ltr\"><span>P. Dijkstra’s Shortest Path</span></p><p dir=\"ltr\"><span>Q. Floyd-Warshall algorithm to compute all pairs shortest path</span></p><p dir=\"ltr\"><span>R. Binary search on a sorted array</span></p><p dir=\"ltr\"><span>S. Backtracking search on a graph</span></p><p dir=\"ltr\"><b><strong>List – II</strong></b></p><p dir=\"ltr\"><span>i. Divide and Conquer</span></p><p dir=\"ltr\"><span>ii. Dynamic Programming</span></p><p dir=\"ltr\"><span>iii. Greedy design</span></p><p dir=\"ltr\"><span>iv. Depth-first search</span></p><p dir=\"ltr\"><span>v. Breadth-first search</span></p><p dir=\"ltr\"><span>Match the above algorithms on the left to the corresponding design paradigm they follow.</span></p><p dir=\"ltr\"><b><strong>GATE CSE 2015,SET2 - [1Marks] (MCQ)</strong></b></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "P-i, Q-iii, R-i, S-v.",
+          "html": "<p dir=\"ltr\"><span>P-i, Q-iii, R-i, S-v.</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "P-iii, Q-iii, R-i, S-v.",
+          "html": "<p dir=\"ltr\"><span>P-iii, Q-iii, R-i, S-v.</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 3,
+          "text": "P-iii, Q-ii, R-i, S-iv.",
+          "html": "<p dir=\"ltr\"><span>P-iii, Q-ii, R-i, S-iv.</span></p>",
+          "is_correct": true
+        },
+        {
+          "option_no": 4,
+          "text": "P-iii, Q-ii, R-i, S-v.",
+          "html": "<p dir=\"ltr\"><span>P-iii, Q-ii, R-i,&nbsp;S-v.</span></p>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        3
+      ],
+      "explanation": "Dijkstra’s Shortest Path is a Greedy Algorithm.\nFloyd-Warshall algorithm is Dynamic Programming.\nBinary search is a Divide and Conquer.\nBacktracking is Depth-first search.\nMark visited (set to red) when done with neighbors.\nDijkstra's algorithm is an algorithm for finding the shortest paths between nodes in a graph, which may represent, for example, road networks",
+      "explanation_html": "<p dir=\"ltr\"><span>Dijkstra’s Shortest Path is a Greedy Algorithm. </span></p><p dir=\"ltr\"><span>Floyd-Warshall algorithm is Dynamic Programming.</span></p><p dir=\"ltr\"><span>Binary search is a Divide and Conquer.</span></p><p dir=\"ltr\"><span>Backtracking is Depth-first search.</span></p><p dir=\"ltr\"><span>Mark visited (set to red) when done with neighbors. </span></p><p dir=\"ltr\"><span>Dijkstra's algorithm is an algorithm for finding the shortest paths between nodes in a graph, which may represent, for example, road networks</span></p>",
+      "created_on": "2025-05-05 - 17:59:08",
+      "updated_on": "2025-10-15 - 17:18:55"
+    },
+    {
+      "qno": 37,
+      "id": 151543,
+      "title": "Algorithm || 2015 MCQ || 2-mark || Module 2: Design Strategies | Greedy algorithm",
+      "slug": "1-130",
+      "question": "Let G be a connected undirected graph of 100 vertices and 300 edges. The weight of a minimum spanning tree of G is 500. When the weight of each edge of G is increased by five, the weight of a minimum spanning tree becomes ___________.\nGATE CSE 2015,SET3 - [2Marks] (MCQ)",
+      "question_html": "<p dir=\"ltr\"><span>Let G be a connected undirected graph of 100 vertices and 300 edges. The weight of a minimum spanning tree of&nbsp;G&nbsp;is 500. When the weight of each edge of&nbsp;G&nbsp;is increased by five, the weight of a minimum spanning tree becomes&nbsp;___________.</span><br><b><strong>GATE CSE 2015,SET3 - [2Marks] (MCQ)</strong></b></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "800",
+          "html": "<p><span>800</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "995",
+          "html": "<p><span>995</span></p>",
+          "is_correct": true
+        },
+        {
+          "option_no": 3,
+          "text": "1000",
+          "html": "<p><span>1000</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 4,
+          "text": "456",
+          "html": "<p><span>456</span></p>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        2
+      ],
+      "explanation": "Since there are 100 vertices, there must be 99 edges in Minimum Spanning Tree (MST). When weight of every edge is increased by 5, the increment in weight of MST is = 99 * 5 = 495 so new weight of MST is 500 + 495 which is 995.",
+      "explanation_html": "<p dir=\"ltr\"><span>Since there are 100 vertices, there must be 99 edges in Minimum Spanning Tree (MST). When weight of every edge is increased by 5, the increment in weight of MST is = 99 * 5 = 495 so new weight of MST is 500 + 495 which is 995. </span></p><p><br></p>",
+      "created_on": "2025-05-05 - 18:13:26",
+      "updated_on": "2025-11-17 - 14:51:39"
+    },
+    {
+      "qno": 38,
+      "id": 151544,
+      "title": "Algorithm || 2016 MCQ || 2-mark || Module 2: Design Strategies | Greedy algorithm",
+      "slug": "1-131",
+      "question": "G = (V, E ) is an undirected simple graph in which each edge has a distinct weight, and e is a particular edge of G. Which of the following statements about the minimum spanning trees (MSTs) of G is/are TRUE?\nI. If e is the lightest edge of some cycle in G, then every MST of G includes e\nII. If e is the heaviest edge of some cycle in G, then every MST of G excludes e\nGATE CSE 2016,SET1 - [2Marks] (MCQ)",
+      "question_html": "<p dir=\"ltr\"><span>G = (V, E ) is an undirected simple graph in which each edge has a distinct weight, and e is a particular edge of G. Which of the following statements about the minimum spanning trees (MSTs) of G is/are TRUE?</span></p><p dir=\"ltr\"><span>I. If e is the lightest edge of some cycle in G, then every MST of G includes e</span></p><p dir=\"ltr\"><span>II. If e is the heaviest edge of some cycle in G, then every MST of G excludes e</span><br><b><strong>GATE CSE 2016,SET1 - [2Marks] (MCQ)</strong></b></p><p dir=\"ltr\"><br></p>",
+      "options": [
+        {
+          "option_no": 1,
+          "text": "I only",
+          "html": "<p dir=\"ltr\"><span>I only</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 2,
+          "text": "II only",
+          "html": "<p dir=\"ltr\"><span>II only</span></p>",
+          "is_correct": true
+        },
+        {
+          "option_no": 3,
+          "text": "both I and II",
+          "html": "<p dir=\"ltr\"><span>both I and II</span></p>",
+          "is_correct": false
+        },
+        {
+          "option_no": 4,
+          "text": "neither I and II",
+          "html": "<p dir=\"ltr\"><span>neither I and II</span></p>",
+          "is_correct": false
+        }
+      ],
+      "correct_answers": [
+        2
+      ],
+      "explanation": "Here in below Graph G in (Cycle 3, 4, 5) 3 is the lightest edge and still it is not included in MST.\n. Statement 2:-  True by[ Cycle property of MST] : (in above Graph G 1 - 2- 3  is a cycle and 3 is the heaviest edge) If heaviest edge is in cycle then we will always exclude that because cycle is there means, we can have other choice of low cost edges. (If edge weights are not distinct even the heaviest edge can be part of the MST and here in question distinct edge weight is clearly mentioned)\nSo, option  B  is answer.",
+      "explanation_html": "<p dir=\"ltr\"><span>Here in below Graph&nbsp;G in (Cycle 3, 4, 5) 3&nbsp;is the lightest edge and still it is not included in MST.</span></p><figure class=\"image\"><img src=\"https://media.geeksforgeeks.org/wp-content/uploads/20251120144713124344/Screenshot-2025-11-20-144658.png\" alt=\"Screenshot-2025-11-20-144658\" width=\"475\" height=\"238\" srcset=\"https://media.geeksforgeeks.org/wp-content/uploads/20251120144713124344/Screenshot-2025-11-20-144658.png 475w,https://media.geeksforgeeks.org/wp-content/uploads/20251120144713124344/Screenshot-2025-11-20-144658-100.png 100w,https://media.geeksforgeeks.org/wp-content/uploads/20251120144713124344/Screenshot-2025-11-20-144658-200.png 200w,https://media.geeksforgeeks.org/wp-content/uploads/20251120144713124344/Screenshot-2025-11-20-144658-300.png 300w\"><figcaption>.</figcaption></figure><p dir=\"ltr\" style=\"text-align: left;\"><b><strong>Statement 2:-</strong></b><span>&nbsp;True by[ Cycle property of MST] : (in above Graph G 1 - 2- 3&nbsp;&nbsp;is a cycle and&nbsp;3&nbsp;is the heaviest edge) If heaviest edge&nbsp;is in cycle then we will always exclude that because&nbsp;cycle is there&nbsp;means, we can have other choice of low cost edges. (If edge weights are not distinct even the heaviest edge can be part of the MST and here in question distinct edge weight is clearly mentioned)</span></p><p dir=\"ltr\" style=\"text-align: left;\"><span>So, option&nbsp;</span><b><strong>B</strong></b><span>&nbsp;is answer.</span></p>",
+      "created_on": "2025-05-05 - 18:24:07",
+      "updated_on": "2025-11-20 - 14:48:48"
+    }
+  ]
+}
